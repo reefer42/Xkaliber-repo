@@ -146,9 +146,9 @@ sudo systemctl enable dnsmasq
    sudo systemctl enable docker --now
    sudo usermod -aG docker $USER
    sudo flatpak install flathub io.github.dvlv.boxbuddyrs
-   sudo flatpak run io.github.dvlv.boxbuddyrs
+   flatpak run io.github.dvlv.boxbuddyrs
    sudo flatpak install flathub dev.lizardbyte.app.Sunshine
-   sudo flatpak run dev.lizardbyte.app.Sunshine
+   flatpak run dev.lizardbyte.app.Sunshine
    sudo curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
    
   echo "distrobox docker and other general apps installed"
