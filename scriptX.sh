@@ -79,155 +79,172 @@ for i in {1..10}; do   random_color=$(shuf -i 1-255 -n 1);   printf "\e[38;5;${r
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣷⣍⠦⡉⢖⡡⢎⠱⢎⣵⣩⢞⡧⣟⣳⡽⣯⠷⣯⣟⢷⡻⢧⣟⢾⣳⢿⡽⣻⢾⣽⣻⣟⡿⣿⣯⣷⢿⣽⣻⡿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿s\e[0m\n";   sleep 0.1; done
 
 
-sudo echo "Xkaliber os team presents"
-sudo echo "Script X"
-#deps
-sudo apt update && sudo apt install python3 git gettext libappstream-dev libflatpak-dev libgee-0.8-dev libgranite-dev libgtk-3-dev libhandy-1-dev libjson-glib-dev libpackagekit-glib2-dev libpolkit-gobject-1-dev libsoup2.4-dev libxml2-dev libxml2-utils meson valac curl wget dnsmasq konsole aptitude sddm dnsmasq plasma-mobile -y
+sudo echo "Xkaliber os team presents" 
+clear
 
-sudo aptitude install plasma-discover -y
+# Introducing Xkaliber OS team and script name
+printf "\e[38;5;220m\e[1mXkaliber OS team presents\e[0m\n"
+printf "\e[38;5;111mScript X\e[0m\n\n"
 
-sudo apt install gnome-software-plugin-flatpak -y
+# Inform user about script functionality
+echo "This script will guide you through installing various software options for your debian 12."
+echo "Please carefully choose the options you want to install."
 
-sudo apt-get update --allow-unauthenticated
+# Menu with package options
+echo "--------------------------------------"
+echo "Software Installation Options"
+echo "--------------------------------------"
+echo "1. Install Dependencies (recommended)"
+echo "2. Set up a DNS cache server"
+echo "3. Enable Zram"
+echo "4. distrobox and docker"
+echo "5. Install Waydroid (gbinder kernel)"
+echo "6. Install Waydroid (no gbinder kernel)"
+echo "7. Install GNOME"
+echo "8. Install Plasma-Mobile"
+echo "9. Install Steam"
+echo "10. Install NVIDIA drivers"
+echo "11. Install Snap Store"
+echo "12. Exit script"
+
+# Read user input and validate it
+read -p "Enter your choice: " user_choice
+
+# Handle menu choices and execute basic installation commands (requires further refinement)
+case $user_choice in
+1)
+  echo "Installing dependencies..."
+   sudo apt update && sudo apt full-upgrade|sudo apt install python3 git gettext libappstream-dev libflatpak-dev libgee-0.8-dev libgranite-dev libgtk-3-dev libhandy-1-dev libjson-glib-dev libpackagekit-glib2-dev libpolkit-gobject-1-dev libsoup2.4-dev libxml2-dev libxml2-utils meson valac curl wget dnsmasq konsole aptitude -y|sudo apt install -y build-essential cmake python3-venv python3-pip python3-setuptools 
+  echo "Dependencies installed!"
+  ;;
+2)
+  echo "Setting up DNS cache server..."
+    sudo apt install dnsmasq -y  
+   sudo echo "server=8.8.8.8" | sudo tee -a /etc/dnsmasq.conf
+   sudo echo "server=8.8.4.4" | sudo tee -a /etc/dnsmasq.conf
+
+  # Set the DNS cache size to 5000 entries
+    sudo echo "cache-size=10000" | sudo tee -a /etc/dnsmasq.conf
+    sudo echo "listen-address=0.0.0.0" | sudo tee -a /etc/dnsmasq.conf
+   
+  # Instruct dnsmasq to ignore the /etc/resolv.conf file and use its own internal list of DNS servers
+  sudo echo "no-resolv" | sudo tee -a /etc/dnsmasq.conf
+
+  # Set the negative TTL to 60 seconds. This means that if dnsmasq receives a negative response from a DNS server, it will cache that response for 60 seconds before querying the server again.
+sudo systemctl enable dnsmasq
+  echo "DNS cache server setup complete!"
+  ;;
+3)
+  echo "Enabling Zram..."
+   sudo apt install systemd-zram-generator -y
+  echo "Zram enabled!"
+  ;;
+4)
+  echo "distrobox and docker"
+  sudo apt install gnome-software-plugin-flatpak
+   sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+   sudo apt install -y docker.io -y
+   sudo systemctl enable docker --now
+   sudo usermod -aG docker $USER
+   sudo flatpak install flathub io.github.dvlv.boxbuddyrs
+   sudo flatpak run io.github.dvlv.boxbuddyrs
+   sudo flatpak install flathub dev.lizardbyte.app.Sunshine
+   sudo flatpak run dev.lizardbyte.app.Sunshine
+   sudo curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
+   
+  echo "distrobox docker and other general apps installed"
+  ;;
+5)
+  echo "Installing Waydroid (gbinder kernel)..."
+   sudo apt install curl ca-certificates -y
+   sudo curl https://repo.waydro.id | sudo bash
+   sudo apt install waydroid -y
+  
+   sudo systemctl enable --now waydroid-container
+  echo "Waydroid installed!"
+  ;;
+6)
+  echo "Installing Waydroid (no gbinder kernel)..."
+   export distro=bullseye
+
+# Add Waydroid repository key and source list
+sudo curl https://repo.waydro.id/waydroid.gpg --output /usr/share/keyrings/waydroid.gpg
+echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ ${distro} main" | \
+  sudo tee /etc/apt/sources.list.d/waydroid.list
+
+# Update package lists and install dependencies
+sudo apt update
+sudo apt install -y \
+  build-essential cdbs devscripts equivs fakeroot \
+  git git-buildpackage git-lfs \
+  libgbinder-dev
+
+# Download and make the build_changelog script executable
+sudo wget https://raw.githubusercontent.com/MrCyjaneK/waydroid-build/main/build_changelog \
+  -O /usr/bin/build_changelog
+sudo chmod +x /usr/bin/build_changelog
+
+# Create a build directory and clone the gbinder-python repository
+mkdir ~/build-packages
+cd ~/build-packages
+git clone https://github.com/waydroid/gbinder-python.git
+cd gbinder-python
+
+# Build and install gbinder-python
+build_changelog
+sudo mk-build-deps -ir -t "apt -o Debug::pkgProblemResolver=yes -y --no-install-recommends"
+sudo debuild -b -uc -us
+sudo apt install -f -y ../*.deb
+
+# Clean up temporary files and packages
+sudo apt remove libgbinder-dev gbinder-python-build-deps git-lfs fakeroot equivs devscripts cdbs
+# You can remove git and build-essential packages too
+sudo apt autoremove
+sudo rm /usr/bin/build_changelog
+
+# Install Waydroid
+sudo apt install waydroid
+  echo "Waydroid installed!"
+  ;;
+7)
+  echo "Installing GNOME..."
+   sudo apt install gnome gnome-software-common -y
+
+  echo "GNOME installed!"
+  ;;
+8)
+  echo "Installing Plasma-Mobile..."
+   sudo apt install plasma-mobile -y
+  echo "Plasma-Mobile installed!"
+  ;;
+9)
+  echo "Installing Steam..."
+    sudo distrobox create -n steam \
+                  --image ubuntu:latest \
+                  -p \
+                  --yes \
+                  --home ~/.distrobox/steam
+distrobox enter steam|
+
+curl -L -O https://repo.steampowered.com/steam/archive/stable/steam_latest.deb
 
 sudo dpkg --add-architecture i386
-apt install libgl1-nvidia-glvnd-glx:i386
-#dns
-read -p "Do you want to setup a Dns cache server? this will significantly increase your internet speed and lower lantencys (y/n): " answer
+sudo apt update
+sudo apt -y dist-upgrade
+sudo apt -y install pciutils udev libcanberra-gtk-module
+# install and fix missing dependencies afterwards
+sudo dpkg -i steam_latest.deb
+sudo apt -y -f install
+sudo apt install libc6-i386 # libgl1:i386 libdrm2:i386 libegl1:i386 libgbm1:i386
+# depends on ubuntu version seemingly
+sudo apt install steam-libs-amd64 steam-libs-i386
+sudo ldconfig
 
-if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
-    sudo apt update
-    sudo echo "server=8.8.8.8" | sudo tee -a /etc/dnsmasq.conf
-    sudo echo "server=8.8.4.4" | sudo tee -a /etc/dnsmasq.conf
-
-    # Add Cloudflare's DNS servers
-    sudo echo "server=1.1.1.1" | sudo tee -a /etc/dnsmasq.conf
-    sudo echo "server=1.0.0.1" | sudo tee -a /etc/dnsmasq.conf
-
-   # Set the DNS cache size to 5000 entries
-   sudo echo "cache-size=5000" | sudo tee -a /etc/dnsmasq.conf
-
-   # Set the minimum cache time to live (TTL) to 86,400 seconds (1 day)
-   sudo echo "min-cache-ttl=86400" | sudo tee -a /etc/dnsmasq.conf
-
-   # Set the maximum cache TTL to 604,800 seconds (7 days)
-   sudo echo "max-cache-ttl=604800" | sudo tee -a /etc/dnsmasq.conf
-
-   # Instruct dnsmasq to ignore the /etc/resolv.conf file and use its own internal list of DNS servers
-   sudo echo "no-resolv" | sudo tee -a /etc/dnsmasq.conf
-
-   # Set the negative TTL to 60 seconds. This means that if dnsmasq receives a negative response from a DNS server, it will cache that response for 60 seconds before querying the server again.
-   sudo echo "neg-ttl=60" | sudo tee -a /etc/dnsmasq.conf
-
-    echo "Skipping dnsmasq."
-fi
-
-
-
-
-sudo systemctl enable dnsmasq
-
-
-
-#zram
-read -p "Do you want to zram?  (y/n): " answer
-
-if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
-    sudo apt install systemd-zram-generator -y
-
-    # Add commands to install the drivers from the downloaded deb file
-else
-    echo "Skipping Zram."
-fi
-
-# ... (continue with the rest of your script)
-
-
-echo "install lib5 (needed)"
-   sudo wget http://ftp.de.debian.org/debian/pool/main/n/ncurses/libtinfo5_6.4-4_amd64.deb
-   sudo chmod +x libtinfo5_6.4-4_amd64.deb
-   sudo dpkg -i libtinfo5_6.4-4_amd64.deb
-
-
-
-
-#pop shop
-#read -p "Do you want to install pop shop? (y/n): " answer
-
-#if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
-    #sudo git clone https://github.com/pop-os/shop.git
-    #cd shop
-    #sudo chmod 777 *
-    #sudo meson build --prefix=/usr
-   # cd build
-  #  sudo chmod 777 *
- #   sudo ninja
-#    sudo ninja install
-    
-    # Add commands to install the drivers from the downloaded deb file
-#else
- #   echo "Skipping pop shop."
-#fi
-
-#waydroid
-read -p "Do you want to install waydroid? (y/n): " answer
-
-if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
-    sudo apt install curl ca-certificates -y
-    sudo curl https://repo.waydro.id | sudo bash
-    sudo apt install waydroid -y
-   
-    sudo systemctl enable --now waydroid-container
-    
-    # Add commands to install the drivers from the downloaded deb file
-else
-    echo "Skipping waydroid."
-fi
-
-
-
-
-
-#gnome
-read -p "Do you want to install gnome? (y/n): " answer
-
-if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
-    sudo apt install gnome -y
-    # Add commands to install the drivers from the downloaded deb file
-else
-    echo "Skipping gnome."
-fi
-
-# ... (continue with the rest of your script)
-
-
-read -p "Do you want to install plasma-mobile? (y/n): " answer
-
-if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
-    sudo apt install plasma-mobile -y
-    # Add commands to install the drivers from the downloaded deb file
-else
-    echo "Skipping plasma."
-fi
-
-
-
-read -p "Do you want to install steam? (y/n): " answer
-
-if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
-    sudo wget http://media.steampowered.com/client/installer/steam.deb
-    sudo chmod +x steam.deb
-    sudo dpkg -i steam.deb
     steam
-    # Add commands to install the drivers from the downloaded deb file
-else
-    echo "Skipping steam."
-fi
-
-
-read -p "Do you want to install nvidia drivers? (y/n): " answer
-
-if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
+  echo "Steam installed!"
+  ;;
+10)
+  echo "Installing NVIDIA drivers..."
     sudo wget https://developer.download.nvidia.com/compute/cuda/12.3.1/local_installers/cuda-repo-debian12-12-3-local_12.3.1-545.23.08-1_amd64.deb
    sudo chmod +x cuda-repo-debian12-12-3-local_12.3.1-545.23.08-1_amd64.deb
    sudo dpkg -i cuda-repo-debian12-12-3-local_12.3.1-545.23.08-1_amd64.deb
@@ -237,47 +254,26 @@ if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
    sudo apt-get install -y cuda-toolkit-12-3 -y
    sudo apt-get install -y cuda-drivers -y
    
-    # Add commands to install the drivers from the downloaded deb file
-else
-    echo "Skipping nvidia."
-fi
-
-
-
-read -p "Do you want to install snap store? (y/n): " answer
-
-if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
+  echo "NVIDIA drivers installed!"
+  ;;
+11)
+  echo "Installing Snap Store..."
     sudo apt install snapd -y
-    sudo snap install hello-world
-    sudo snap install snap-store
-    
-    # Add commands to install the drivers from the downloaded deb file
-else
-    echo "Skipping snap."
-fi
+     sudo systemctl enable --now snapd apparmor
+     sudo snap install hello-world
+     sudo snap install snap-store
+  echo "Snap Store installed!"
+  ;;
+12)
+  echo "Exiting script..."
+  exit 0
+  ;;
+*)
+  echo "Invalid choice. Please enter a number between 1 and 12."
+  ;;
+esac
 
-# AI Dependencies (optional)
-read -p "Do you want to install AI dependencies (like gpt)? (y/n) " answer
+# Continue with other sections (skip packages with challenges for now)
 
-if [[ "$answer" =~ ^[Yy]$ ]]; then
-  echo "**Warning:** Installing unofficial packages and dependencies may carry security risks. Consider using well-maintained repositories or building from trusted sources."
-
-  read -p "Continue with caution? (y/n) " answer2
-
-  if [[ "$answer2" =~ ^[Yy]$ ]]; then
-    echo "Installing AI dependencies..."
-
-    # Use package manager for installing Python and webkit2gtk
-    sudo apt update
-    sudo apt install python3-pip libwebkit2gtk-4.0-37
-
-    
-    sudo apt --fix-broken install
-    sudo apt install libwebkit2gtk-4.0-37
-    sudo wget https://github.com/lencx/ChatGPT/releases/download/v1.1.0/ChatGPT_1.1.0_linux_x86_64.deb
-
-sudo chmod +x ChatGPT_1.1.0_linux_x86_64.deb
-sudo dpkg -i ChatGPT_1.1.0_linux_x86_64.deb
-sudo apt install debgpt
-
-sudo echo "special thanks to ERPlegend && Jack"
+# End of script
+echo "Script completed!"
