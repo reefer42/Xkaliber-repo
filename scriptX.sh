@@ -1,6 +1,5 @@
 
 
-
 for i in {1..10}; do
   random_color=$(shuf -i 1-255 -n 1)
   printf "\e[38;5;${random_color}m\e[1mXkaliber os team presents\e[0m\n"
