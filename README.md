@@ -1,5 +1,5 @@
 
-THIS SUPPORTS CURRENT TESTING TRIXIE SO YOUR SAFE BOYS LOL
+THIS SUPPORTS CURRENTLY KALI DEBIAN AND UBUNTU BASED SYSTEMS 
 
 **Enhance your Debian 12 experience with this powerful utility script!** This script streamlines the process of upgrading and adding features to your Debian 12 system, ensuring a smooth and optimized user experience.
 
