@@ -46,10 +46,9 @@ support for pocket pcs such as steamdeck for ai and image generation abilities
 then run xmenu.sh to view and access repo menu 
 (THERE ARE NO .SH FILES these commands have .sh extensions so nothing conflicts with anything used here
 
+run the following to quick install :
+
 git clone https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/xupdate.sh-6.0.deb
-
 sudo dpkg -i xupdate.sh-6.0.deb
-
 xupdate.sh
-
 xmenu.sh
