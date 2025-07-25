@@ -1,5 +1,5 @@
 
-THIS SUPPORTS CURRENTLY KALI DEBIAN AND UBUNTU BASED SYSTEMS 
+THIS SUPPORTS CURRENTLY KALI DEBIAN AND UBUNTU BASED SYSTEMS both Nvidia and AMD
 
 THIS IS THE OFFICIAL XKALIBER OS REPO AND STILL RECIEVES UPDATES !!!!
 
@@ -13,13 +13,20 @@ This repo provides software solutions that are not conducted on the native syste
 
 **Key Features:**
 
-* **Isolated Steam Environment:**  Enjoy seamless Steam and SteamVR functionality without interfering with your Debian setup.  Changes within the Steam environment remain contained, preventing conflicts with your host system.
-* **Flexible Waydroid Installation:** Choose the optimal Waydroid installation method based on your kernel configuration.  Select the gbinder option for custom kernels or the no-gbinder option for stock Debian installations.
+* **Isolated Steam Environment:**  Enjoy seamless Steam and SteamVR functionality without interfering with your Debian setup.  Changes within the Steam environment remain contained, preventing conflicts with your host system. This also supports steam vr via alvr and set launch options in steam for steamvr
+* **Flexible Waydroid Installation:** Choose the optimal Waydroid installation built inside an isolated container with full hardware access and optional package for magisk,gapps,libndk etc
 * **Boosted Network Performance:**  A local DNS cache script for dnsmasq significantly enhances network speeds and download rates, making your online experience faster and more efficient.
 * **All-in-One Containerization Solution:**  Effortlessly install and manage containers with a comprehensive package that includes Docker, Distrobox, Boxbuddy, Sunshine, and FlatHub.
 
-
+Popular AI workflow and sofware solutions tailored for you such as
+*setup for ai agents 
+*setup for ai chatbots
+*setup for image and video generation 
+*setup for popular AI sofware hubs
+*all locally hosted and free AI solutions/ no api needed or subscription
+*uncensored AI models such as Reefer AI
 **Robust and Reliable:**
+
 
 Each section of the script can be run independently, allowing for flexibility and customization.  Encounter an error?  Address it directly or wait for an update.  This script is designed to empower you with control over your Debian 12 system.
 
