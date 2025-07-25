@@ -9,7 +9,7 @@ This repo provides software solutions that are not conducted on the native syste
 
 
 
-**Enhance your linux experience with this powerful utility script!** This script streamlines the process of upgrading and adding features to your Debian 12 system, ensuring a smooth and optimized user experience.
+**Enhance your linux experience with this powerful utility script!** This script streamlines the process of upgrading and adding features to your linux system, ensuring a smooth and optimized user experience.
 
 **Key Features:**
 
