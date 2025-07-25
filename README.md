@@ -36,6 +36,8 @@ Popular AI workflow and sofware solutions tailored for you such as:
 
 *uncensored AI models such as Reefer AI
 
+*run adobe and other windows software using windows inside docker 
+
 *All options are configured and are setup for you so you can just immediately enjoy the features provided 
 
 support for pocket pcs such as steamdeck for ai and image generation abilities 
