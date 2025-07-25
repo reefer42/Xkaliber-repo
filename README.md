@@ -35,6 +35,8 @@ Popular AI workflow and sofware solutions tailored for you such as:
 
 *uncensored AI models such as Reefer AI
 
+*All options are configured and are setup for you so you can just immediately enjoy the features provided 
+
 support for pocket pcs such as steamdeck for ai and image generation abilities 
 
 **Instuctions** After installing the deb open terminal and TYPE IN THE COMMAND: xupdate.sh
