@@ -15,12 +15,11 @@ This repo provides software solutions that are not conducted on the native syste
 
 * **Isolated Steam Environment:**  Enjoy seamless Steam and SteamVR functionality without interfering with your current setup.  Changes within the Steam environment remain contained, preventing conflicts with your host system. This also supports steam vr via alvr and set launch options in steam for steamvr :  ~/.local/share/Steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%
 and use previous steamvr option in compatibilities  (does not support wayland)
-* 
-* 
+  
 * **Flexible Waydroid Installation:** Choose the optimal Waydroid installation built inside an isolated container with full hardware access and optional package for magisk,gapps,libndk etc
-* 
+  
 * **Boosted Network Performance:**  A local DNS cache script for dnsmasq significantly enhances network speeds and download rates, making your online experience faster and more efficient.
-* 
+  
 * **All-in-One Containerization Solution:**  Effortlessly install and manage containers with a comprehensive package that includes Docker, Distrobox, Boxbuddy, Sunshine, and FlatHub.
 
 Popular AI workflow and sofware solutions tailored for you such as:
