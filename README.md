@@ -37,5 +37,6 @@ Popular AI workflow and sofware solutions tailored for you such as:
 
 support for pocket pcs such as steamdeck for ai and image generation abilities 
 
-**Instuctions** After installing the deb open terminal and run: xupdate.sh
+**Instuctions** After installing the deb open terminal and TYPE IN THE COMMAND: xupdate.sh
 then run xmenu.sh to view and access repo menu 
+(THERE ARE NO .SH FILES these commands have .sh extensions so nothing conflicts with anything used here)
