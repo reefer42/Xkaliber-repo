@@ -35,9 +35,4 @@ Popular AI workflow and sofware solutions tailored for you such as:
 
 *uncensored AI models such as Reefer AI
 
-**Robust and Reliable:**
-
-Each section of the script can be run independently, allowing for flexibility and customization.  Encounter an error?  Address it directly or wait for an update.  This script is designed to empower you with control over your linux system.
-
-**!**  This utility script provides a safe, efficient, and user-friendly way to enhance your system.
-but also keep im mind im not responcible for ****
+support for pocket pcs such as steamdeck for ai and image generation abilities 
