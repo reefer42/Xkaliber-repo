@@ -7,7 +7,7 @@ This repo branch is universal to all apt based os's (debian kali ubuntu etc) but
 
 This repo provides software solutions that are not conducted on the native system
 
-
+check out the releases section for pictures
 
 **Enhance your linux experience with this powerful utility repo!** This repo streamlines the process of upgrading and adding features to your linux system, ensuring a smooth and optimized user experience.
 
