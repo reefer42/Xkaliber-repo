@@ -3,7 +3,7 @@ THIS SUPPORTS CURRENTLY KALI DEBIAN AND UBUNTU BASED SYSTEMS both Nvidia and AMD
 
 THIS IS THE OFFICIAL XKALIBER OS REPO AND STILL RECIEVES UPDATES !!!!
 
-This repo branch is universal to all apt based os's (debian kali ubuntu etc)
+This repo branch is universal to all apt based os's (debian kali ubuntu etc) but not ZORIN
 
 This repo provides software solutions that are not conducted on the native system
 
