@@ -1,5 +1,7 @@
 # Xkaliber Repository updates :
 8/2/25
+**fixed gtk-warning errors for gui display**
+
 **new GUI**
 
 **users can just type in the word xmenu and now get a gui display of your repo menu options.
