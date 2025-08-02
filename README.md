@@ -122,6 +122,8 @@ drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk
 
 password to iso is: **kali**
 
+search through applications for the installer after booting this iso
+
 *(Note: These commands are shell scripts with `.sh` extensions, ensuring no conflicts with existing system utilities.)*
 
 -----
