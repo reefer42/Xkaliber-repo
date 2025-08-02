@@ -111,6 +111,10 @@ https://www.youtube.com/watch?v=WtcRMyVZOgc&t=14s
 **info for xdeb application**
 
 https://www.youtube.com/watch?v=9EN8QjF1ivk&t=7s
+
+**waydroid stability test**
+
+https://www.youtube.com/watch?v=IcMNvZt0QmU&t=8s
   
 
 
