@@ -91,7 +91,10 @@ Follow these simple steps to get started:
     ```
 
 # Xkaliber Repository updates :
-**users can just type in the word xmenu and now get a gui display of your repo menu options
+**new GUI**
+
+**users can just type in the word xmenu and now get a gui display of your repo menu options.
+  this gui is currently a work in progress and so far all options work but a description is doubled for some reason
 
 
 *(Note: These commands are shell scripts with `.sh` extensions, ensuring no conflicts with existing system utilities.)*
