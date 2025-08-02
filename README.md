@@ -128,6 +128,7 @@ https://www.youtube.com/watch?v=IcMNvZt0QmU&t=8s
 drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk
 
 password to iso is: **kali**
+this version only supports plasma mobile DE but is keyboardless dedicated 
 
 search through applications for the installer after booting this iso
 
