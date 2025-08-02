@@ -5,7 +5,11 @@
 # Xkaliber OS Utility Repository
 
 **Enhance your Linux experience with Xkaliber OS\!** This is the official and actively maintained repository for Xkaliber OS, providing powerful utilities to upgrade and add features to your Debian, Ubuntu, and Kali Linux systems.
+About This Repository
 
+Xkaliber OS takes a unique approach to system enhancement. This repository is meticulously maintained within isolated containers, guaranteeing no conflicts with dependencies or unmet requirements during installation. Unlike generic, stock installers, our solutions are feature-driven, designed to offer expanded use cases and enhanced compatibility beyond typical installations. We also introduce you to some recommended applications you may find valuable.
+
+A key focus of this repository is its optimization for handheld pocket PCs like the Steam Deck, GPD WIN 4, and similar devices, particularly for our integrated AI tools. All included software is private and locally hosted, requiring no subscriptions or paid API access for use.
 -----
 
 ### **Universal Compatibility**
