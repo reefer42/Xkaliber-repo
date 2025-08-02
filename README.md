@@ -117,7 +117,7 @@ https://www.youtube.com/watch?v=9EN8QjF1ivk&t=7s
 https://www.youtube.com/watch?v=IcMNvZt0QmU&t=8s
 
 **for those looking for the steamdeck/legion go official iso of xlaliber can be found here**
-this edition is built on top ok kali 
+
 drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk
 
 *(Note: These commands are shell scripts with `.sh` extensions, ensuring no conflicts with existing system utilities.)*
