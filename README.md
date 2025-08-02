@@ -34,6 +34,7 @@ Xkaliber OS offers unique software solutions and enhancements that go beyond wha
 ### **Key Features**
 
 (run xdocker option before installing other software)
+
 (run aisetup before trying to install ai models)
 
   * **Isolated Steam & SteamVR Environment:** Enjoy a seamless gaming experience without conflicts. Our contained Steam environment ensures that all changes remain separate from your host system. This includes **SteamVR support** via ALVR.
