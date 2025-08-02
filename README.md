@@ -94,7 +94,8 @@ Follow these simple steps to get started:
 **new GUI**
 
 **users can just type in the word xmenu and now get a gui display of your repo menu options.
-  this gui is currently a work in progress and so far all options work but a description is doubled for some reason
+  this gui is currently a work in progress and so far all options work but a description is doubled for some reason**
+  **The original menu can still be ran from any directory typing xmenu.sh**
 
 
 *(Note: These commands are shell scripts with `.sh` extensions, ensuring no conflicts with existing system utilities.)*
