@@ -1,57 +1,82 @@
+Xkaliber OS Utility Repository
 
-THIS SUPPORTS CURRENTLY KALI DEBIAN AND UBUNTU BASED SYSTEMS both Nvidia and AMD
+Enhance your Linux experience with Xkaliber OS! This is the official and actively maintained repository for Xkaliber OS, providing powerful utilities to upgrade and add features to your Debian, Ubuntu, and Kali Linux systems.
 
-THIS IS THE OFFICIAL XKALIBER OS REPO AND STILL RECIEVES UPDATES !!!!
+Universal Compatibility
 
-This repo branch is universal to all apt based os's (debian kali ubuntu etc) but not ZORIN
+This repository is designed for all APT-based operating systems, including:
 
-This repo provides software solutions that are not conducted on the native system
+    Debian
 
-check out the releases section for pictures
+    Ubuntu
 
-**Enhance your linux experience with this powerful utility repo!** This repo streamlines the process of upgrading and adding features to your linux system, ensuring a smooth and optimized user experience.
+    Kali Linux
 
-**Key Features:**
+Note: Zorin OS, Arch Linux, SteamOS, Bazzite, and CachyOS are currently not supported.
 
-* **Isolated Steam Environment:**  Enjoy seamless Steam and SteamVR functionality without interfering with your current setup.  Changes within the Steam environment remain contained, preventing conflicts with your host system. This also supports steam vr via alvr and set launch options in steam for steamvr :  ~/.local/share/Steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%
-and use previous steamvr option in compatibilities  (does not support wayland) does work on handhelds like steamdeck , gpd, legion go etc if running a apt based os not arch or steamos or bazzite or cachy will not be compatible with this 
-  
-* **Flexible Waydroid Installation:** Choose the optimal Waydroid installation built inside an isolated container with full hardware access and optional package for magisk,gapps,libndk etc
-  
-* **Boosted Network Performance:**  A local DNS cache script for dnsmasq significantly enhances network speeds and download rates, making your online experience faster and more efficient.
-  
-* **All-in-One Containerization Solution:**  Effortlessly install and manage containers with a comprehensive package that includes Docker, Distrobox, Boxbuddy, Sunshine, and FlatHub.
+Beyond Native System Capabilities
 
-Popular AI workflow and sofware solutions tailored for you such as:
+Xkaliber OS offers unique software solutions and enhancements that go beyond what's typically available on your native system.
 
-*setup for ai agents
+Key Features
 
-*setup for ai chatbots
+    Isolated Steam & SteamVR Environment: Enjoy a seamless gaming experience without conflicts. Our contained Steam environment ensures that all changes remain separate from your host system. This includes SteamVR support via ALVR.
 
-*setup for image and video generation 
+        Configuration for SteamVR: Set the launch option in Steam for SteamVR:
+        ~/.local/share/Steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%
 
-*setup for popular AI sofware hubs
+        Use the "previous SteamVR" option in compatibility settings.
 
-*all locally hosted and free AI solutions/ no api needed or subscription
+        Note: Does not support Wayland. Works great on handhelds running APT-based OS, such as Steam Deck, GPD, and Legion Go.
 
-*uncensored AI models such as Reefer AI
+    Flexible Waydroid Installation: Install Waydroid in an isolated container with full hardware access. Choose optional packages like Magisk, GApps, and Libndk for a customized Android experience on your Linux device.
 
-*run adobe and other windows software using windows inside docker 
+    Boosted Network Performance: Speed up your online experience with a local DNS cache script for dnsmasq, significantly enhancing network speeds and download rates.
 
-*All options are configured and are setup for you so you can just immediately enjoy the features provided 
+    All-in-One Containerization Solution: Effortlessly install and manage containers with a comprehensive package that includes Docker, Distrobox, Boxbuddy, Sunshine, and FlatHub.
 
-support for pocket pcs such as steamdeck for ai and image generation abilities 
+Tailored AI Workflows & Software
 
-**Instuctions** After installing the deb open terminal and TYPE IN THE COMMAND: xupdate.sh
-then run xmenu.sh to view and access repo menu 
-(THERE ARE NO .SH FILES these commands have .sh extensions so nothing conflicts with anything used here
+Dive into the world of Artificial Intelligence with pre-configured, locally hosted, and free AI solutions. No APIs or subscriptions needed!
 
-run the following to quick install :
+    AI Agent Setup
+
+    AI Chatbot Setup
+
+    Image & Video Generation
+
+    Popular AI Software Hubs
+
+    Uncensored AI Models: Including Reefer AI.
+
+    Windows Software in Docker: Run Adobe and other Windows applications seamlessly using Windows inside Docker.
+
+All AI options are pre-configured for immediate use, so you can enjoy these powerful features right away. Xkaliber OS also provides AI and image generation capabilities specifically tailored for pocket PCs like the Steam Deck.
+
+Installation & Usage
+
+Follow these simple steps to get started:
+
+    Download the installer:
+    Bash
 
 git clone https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/xupdate.sh-6.0.deb
 
+Install the package:
+Bash
+
 sudo dpkg -i xupdate.sh-6.0.deb
+
+Run the update command:
+Open your terminal and type:
+Bash
 
 xupdate.sh
 
+Access the main menu:
+To view and access the repository's features, run:
+Bash
+
 xmenu.sh
+
+(Note: These commands are shell scripts with .sh extensions, ensuring no conflicts with existing system utilities.)
