@@ -2,7 +2,7 @@
 
 -----
 
-# Xkaliber OS Utility Repository
+# Xkaliber Utility Repository
 
 **Enhance your Linux experience with Xkaliber OS\!** This is the official and actively maintained repository for Xkaliber OS, providing powerful utilities to upgrade and add features to your Debian, Ubuntu, and Kali Linux systems.
 About This Repository
