@@ -10,7 +10,7 @@
   
   **The original menu can still be ran from any directory typing xmenu.sh**
 
-(Note: These commands are shell scripts with `.sh` extensions, ensuring no conflicts with existing system utilities.)*
+**(Note: These commands are shell scripts with `.sh` extensions, ensuring no conflicts with existing system utilities.)**
 
 -----
 
@@ -106,8 +106,7 @@ Follow these simple steps to get started:
     ```bash
     xmenu.sh
     ```
-(Note: These commands are shell scripts with `.sh` extensions, ensuring no conflicts with existing system utilities.)*
-
+**(Note: These commands are shell scripts with `.sh` extensions, ensuring no conflicts with existing system utilities.)**
 -----
 
 
