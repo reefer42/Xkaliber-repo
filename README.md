@@ -104,7 +104,7 @@ Follow these simple steps to get started:
     ```
 
 **demo**
-xkaliber repo on stock kali running on legion go 
+xkaliber repo on stock ubuntu running on legion go 
 
 https://www.youtube.com/watch?v=WtcRMyVZOgc&t=14s
 
