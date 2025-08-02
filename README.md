@@ -116,7 +116,7 @@ https://www.youtube.com/watch?v=9EN8QjF1ivk&t=7s
 
 https://www.youtube.com/watch?v=IcMNvZt0QmU&t=8s
 
-**for those looking for the steamdeck/legion go official iso of xlaliber can be found here**
+**for those looking for the steamdeck/legion go official iso of xkaliber os can be found here**
 
 drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk
 
