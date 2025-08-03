@@ -50,6 +50,8 @@ Xkaliber OS offers unique software solutions and enhancements that go beyond wha
 
 (run xdocker option before installing other software) EVEN IF YOU HAVE DOCKER ALREADY AS THIS OPTION CONTAINS THE XKALIBER SYSTEM SETUP DEPS AND ASSETS ASWELL
 
+AND MAKE SURE TO REBOOT AFTER RUNNING XDOCKER
+
 (run aisetup for ollama and openwebui before trying to install ai models)
 
   * **Isolated Steam & SteamVR Environment:** Enjoy a seamless gaming experience without conflicts. Our contained Steam environment ensures that all changes remain separate from your host system. This includes **SteamVR support** via ALVR.
