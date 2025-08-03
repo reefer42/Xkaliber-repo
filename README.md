@@ -136,6 +136,7 @@ this version only supports plasma mobile DE but is keyboardless dedicated
 search through applications for the installer after booting this iso
 
 **ADDITIONAL SOURCES**
+
 https://github.com/waydroid/waydroid
 
 https://github.com/ollama/ollama
