@@ -135,4 +135,25 @@ this version only supports plasma mobile DE but is keyboardless dedicated
 
 search through applications for the installer after booting this iso
 
-*
+**ADDITIONAL SOURCES**
+https://github.com/waydroid/waydroid
+
+https://github.com/ollama/ollama
+
+https://github.com/open-webui/open-webui
+
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+https://github.com/pinokiocomputer/pinokio
+
+https://github.com/easydiffusion/easydiffusion
+
+https://github.com/casualsnek/waydroid_script
+
+https://github.com/canonical/snapcraft.io
+
+https://github.com/LizardByte/Sunshine
+
+https://github.com/docker
+
+https://github.com/89luca89/distrobox
