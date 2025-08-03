@@ -137,6 +137,8 @@ search through applications for the installer after booting this iso
 
 **ADDITIONAL SOURCES**
 
+https://github.com/valvesoftware
+
 https://github.com/waydroid/waydroid
 
 https://github.com/ollama/ollama
