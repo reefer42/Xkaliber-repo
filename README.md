@@ -28,6 +28,7 @@ A key focus of this repository is its optimization for handheld pocket PCs like 
 
 <img width="2561" height="1600" alt="Screenshot_20250723_131456" src="https://github.com/user-attachments/assets/00a205fa-96be-4bea-96a2-588437639bbe" />
 
+<img width="2561" height="1600" alt="Screenshot_20250723_131456" src="https://github.com/user-attachments/assets/0f7a63f2-ea06-4d02-b9fc-96f37df30db4" />
 
 ### **Universal Compatibility**
 
