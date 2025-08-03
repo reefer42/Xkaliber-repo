@@ -64,7 +64,8 @@ AND MAKE SURE TO REBOOT AFTER RUNNING XDOCKER
         ```
         ~/.local/share/Steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%
         ```
-      * Use the "previous SteamVR" option in compatibility settings.
+      * Use the "previous SteamVR" option in compatibility settings. (TRY WITHOUT CHANGING ANYTHING FIRST AS IT SHOULD WORK WITHOUT NEEDING TO SET COMPATIBILITY)
+        
       * **Note:** Does not support Wayland. Works great on handhelds running APT-based OS, such as Steam Deck, GPD, and Legion Go.
 
   * **Flexible Waydroid Installation:** Install Waydroid in an isolated container with full hardware access. Choose optional packages like Magisk, GApps, and Libndk for a customized Android experience on your Linux device.
