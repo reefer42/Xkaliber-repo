@@ -48,7 +48,7 @@ Xkaliber OS offers unique software solutions and enhancements that go beyond wha
 
 ### **Key Features**
 
-(run xdocker option before installing other software)
+(run xdocker option before installing other software) EVEN IF YOU HAVE DOCKER ALREADY AS THIS OPTION CONTAINS THE XKALIBER SYSTEM SETUP DEPS AND ASSETS ASWELL
 
 (run aisetup for ollama and openwebui before trying to install ai models)
 
