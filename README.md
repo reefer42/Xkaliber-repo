@@ -1,4 +1,8 @@
 # Xkaliber Repository updates :
+8/26/25
+added alvr installer and appimage launcher 
+
+
 8/2/25
 
 **fixed gtk-warning errors for gui display**
@@ -169,5 +173,7 @@ https://github.com/89luca89/distrobox
 http://www.dvlv.co.uk/BoxBuddyRS/
 
 https://github.com/dockur/windows
+
+https://github.com/alvr-org/ALVR/releases/tag/v20.14.1
 
 
