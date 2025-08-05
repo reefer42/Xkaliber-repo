@@ -2,7 +2,7 @@
 
 8/5/25 
 
-new gui added for windowsinstaller
+new gui added for windows installer
 
 
 8/26/25
