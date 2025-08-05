@@ -5,7 +5,7 @@
 new gui added for windows installer
 
 
-8/26/25
+8/3/25
 
 added alvr installer and appimage launcher 
 
