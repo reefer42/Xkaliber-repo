@@ -4,6 +4,8 @@
 
 new gui added for windows installer
 
+access windows from any browser at 127.0.0.1:8006
+
 
 8/3/25
 
