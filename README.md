@@ -191,4 +191,4 @@ https://github.com/dockur/windows
 
 https://github.com/alvr-org/ALVR/releases/tag/v20.14.1
 
-
+https://github.com/SteamDeckHomebrew/decky-loader
