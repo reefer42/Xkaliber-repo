@@ -1,5 +1,9 @@
 # Xkaliber Repository updates :
 
+8/6/25
+
+added deckyloader 
+
 8/5/25 
 
 new gui added for windows installer
