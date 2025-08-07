@@ -58,6 +58,8 @@ A key focus of this repository is its optimization for handheld pocket PCs like 
 
 **STEAMVR RUNNING ON KALI** (supports All)
 
+images below taken and used on legion go 
+
 
 https://github.com/user-attachments/assets/ad283336-56b4-4587-9e25-0983b20f83c9
 
