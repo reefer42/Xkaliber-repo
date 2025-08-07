@@ -58,6 +58,9 @@ A key focus of this repository is its optimization for handheld pocket PCs like 
 
 **STEAMVR RUNNING ON KALI**
 
+
+https://github.com/user-attachments/assets/ad283336-56b4-4587-9e25-0983b20f83c9
+
 <img width="2561" height="1600" alt="Screenshot_20250723_131456" src="https://github.com/user-attachments/assets/0f7a63f2-ea06-4d02-b9fc-96f37df30db4" />
 
 ### **Universal Compatibility**
