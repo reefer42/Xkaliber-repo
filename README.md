@@ -4,6 +4,8 @@
 
 added localAI agent installer package 
 
+fixed xmv desktop launcher option
+
 <img width="556" height="261" alt="localai" src="https://github.com/user-attachments/assets/94448220-7a6d-4771-89b3-3371fea5eb6b" />
 
 
