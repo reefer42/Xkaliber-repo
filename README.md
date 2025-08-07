@@ -1,5 +1,12 @@
 # Xkaliber Repository updates :
 
+8/7/25
+
+added localAI agent installer package 
+
+<img width="556" height="261" alt="localai" src="https://github.com/user-attachments/assets/94448220-7a6d-4771-89b3-3371fea5eb6b" />
+
+
 8/6/25
 
 added deckyloader 
