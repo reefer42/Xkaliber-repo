@@ -2,6 +2,8 @@
 
 8/7/25
 
+users can now just type xupdate to get option to update this repo or your host system
+
 added localAI agent installer package 
 
 fixed xmv desktop launcher option
