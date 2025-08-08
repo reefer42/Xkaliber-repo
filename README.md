@@ -1,5 +1,10 @@
 # Xkaliber Repository updates :
 
+8/8/25
+
+NEW system updater
+
+
 8/7/25
 
 users can now just type xupdate to get option to update this repo or your host system
@@ -7,6 +12,8 @@ users can now just type xupdate to get option to update this repo or your host s
 added localAI agent installer package 
 
 fixed xmv desktop launcher option
+
+NEW system updater
 
 <img width="556" height="261" alt="localai" src="https://github.com/user-attachments/assets/94448220-7a6d-4771-89b3-3371fea5eb6b" />
 
