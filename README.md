@@ -2,7 +2,11 @@
 
 8/8/25
 
-NEW system updater
+NEW system updater gui
+
+<img width="614" height="203" alt="system" src="https://github.com/user-attachments/assets/4b624277-d3fa-42d0-aceb-9b6822ca1ed5" />
+
+
 
 
 8/7/25
