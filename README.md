@@ -69,7 +69,7 @@ A key focus of this repository is its optimization for handheld pocket PCs like 
 
 <img width="2561" height="1600" alt="Screenshot_20250723_131456" src="https://github.com/user-attachments/assets/00a205fa-96be-4bea-96a2-588437639bbe" />
 
-**STEAMVR RUNNING ON KALI** (supports All)
+**STEAMVR RUNNING ON KALI** (supports All) 
 
 images below taken and used on legion go 
 
@@ -112,7 +112,7 @@ AND MAKE SURE TO REBOOT AFTER RUNNING XDOCKER
         ```
       * Use the "previous SteamVR" option in compatibility settings. (TRY WITHOUT CHANGING compatibility FIRST AS IT SHOULD WORK WITHOUT NEEDING TO SET COMPATIBILITY)
         
-      * **Note:** Does not support Wayland. Works great on handhelds running APT-based OS, such as Steam Deck, GPD, and Legion Go.
+      * **Note:** Does support Wayland but works best on x11. Works great on handhelds running APT-based OS, such as Steam Deck, GPD, and Legion Go.
 
   * **Flexible Waydroid Installation:** Install Waydroid in an isolated container with full hardware access. Choose optional packages like Magisk, GApps, and Libndk for a customized Android experience on your Linux device.
 
