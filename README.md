@@ -159,6 +159,10 @@ Follow these simple steps to get started:
     ```bash
     xmenu.sh
     ```
+
+    **YOU MUST RUN THE XDOCKER OPTION BEFORE USING ANY OTHER OPTION FROM THE REPO MEMU !!!**
+
+    
 **(Note: These commands are shell scripts with `.sh` extensions, ensuring no conflicts with existing system utilities.)**
 -----
 
