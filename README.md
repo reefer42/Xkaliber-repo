@@ -186,6 +186,8 @@ https://www.youtube.com/watch?v=IcMNvZt0QmU&t=8s
 
 **for those looking for the steamdeck/legion go official iso of xkaliber os can be found here**
 
+HAS HEAVY SUPPORT FOR TOUCH AND KEYBORDLESS DEVICES
+
 drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk
 
 password to iso is: **kali**
