@@ -162,11 +162,11 @@ Follow these simple steps to get started:
      
    **YOU MUST RUN THE XDOCKER OPTION BEFORE USING ANY OTHER OPTION FROM THE REPO MEMU !!!**
     
-     #if xdocker fails just run
+     # if xdocker fails just run
      
     sudo apt --fix-broken install 
      
-     #and try again
+     # and try again
 
    **YOU MUST RUN THE XDOCKER OPTION BEFORE USING ANY OTHER OPTION FROM THE REPO MEMU !!!**
 
