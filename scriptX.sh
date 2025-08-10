@@ -1,153 +1,98 @@
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1WBPGSeLmoFC9fqEWcUnGYbQvEmGjimy7' -O xdebs.zip
-
-
-
 #!/bin/bash
 
-for i in {1..10}; do   random_color=$(shuf -i 1-255 -n 1);   printf "\e[38;5;${random_color}m\e[1mXkaliber os team present⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⡿⣽⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣳⢯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⡉⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣟⣾⢭⣛⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⡡⣱⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣟⣿⣽⣿⢿⣎⠷⣭⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⢎⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⡽⣾⣻⢿⣟⣾⡹⢖⣻⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡫⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣽⣫⢟⡷⢯⣟⣯⣷⡙⢎⡵⢻⡾⣽⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣳⣟⡾⣽⣻⣞⣷⡽⣜⠢⢞⣽⣹⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣛⣛⣛⣛⣛⣛⡛⠿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣾⣽⣮⠵⢮⡜⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣦⣭⣉⡛⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣱⣼⣎⣿⣿⣽⣻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣾⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣤⣉⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣌⠻⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣟⡿⣯⢟⡏⠡⠌⣛⢾⣻⣟⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣄⡉⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣷⡘⢿⣿⣎⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⡻⣜⣏⡖⠡⠘⢌⡳⢯⣟⡿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡠⢙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣷⡝⣧⠻⣿⡆⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣞⡳⣝⢦⡝⣂⠁⢎⡵⢯⡾⣽⣿⡿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣍⢿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣯⢝⣻⠿⠇⣭⢧⡙⣷⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⡟⡵⢫⡜⢎⠾⡰⣘⢮⣽⣫⣿⢿⣹⡽⣯⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣽⣟⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⡏⣾⣿⣿⣿⣿⣿⡿⠿⠷⠉⠉⣁⠩⣘⡳⣿⣷⣗⠪⣀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣽⡳⢧⡜⣎⡱⢳⣞⣿⡾⣷⢯⣟⣧⢿⣻⣽
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣯⣿⣿⣿⣿⣿⣟⣯⣿⣯⣿⣿⣿⣿⣿⣿⣿⣿⣫⡇⣿⣿⣿⣿⣿⣿⡇⣰⢶⣲⣷⢿⣮⣽⣟⢮⣝⣿⢷⣬⣀⠙⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡿⣯⣜⢶⣩⢷⣞⡷⣿⣟⡿⣾⣹⢯⣷⣻
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⢯⣿⣿⣿⣟⣯⣿⢾⣽⣿⣯⣿⣿⣿⣿⣿⣿⣿⣿⣷⡷⡇⣻⣿⣿⣿⣿⣿⣿⣯⣾⣿⣾⣿⡿⣯⣟⣷⡮⢭⣟⠛⢿⣦⡈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣯⣫⢼⣽⣻⢾⣝⡶⢯⣟⡶⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣋⣾⣿⣿⣻⡾⣽⣟⣾⣟⣿⣾⣿⢿⣽⣻⣾⣿⣿⣿⣿⣟⣛⡇⢹⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣴⣴⣛⠻⣔⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣻⢾⣽⣻⢮⡝⣿⣞⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢟⣴⣿⣿⣻⣞⣷⣻⢷⡻⣾⣽⣿⢯⡻⣯⢾⣿⣿⣿⣿⣿⣻⣯⠷⣆⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣾⡿⢄⡈⣙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢾⣽⣻⣾⣽⣾⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢃⣾⣿⣿⣿⣿⣿⠾⣝⢾⣽⡿⡝⢮⢳⣝⣳⢯⣿⣿⣿⣿⣿⣻⢿⡸⢍⡆⠋⣿⡿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡝⣿⣟⣿⣷⣯⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣡⣿⣿⣿⣿⣿⣿⢯⡻⣼⡿⡫⢜⡙⣎⢳⢮⡝⣯⣿⣿⣿⣿⠘⢿⣿⣿⣧⠿⡀⣌⣃⣥⣮⣿⣻⡿⠿⣿⣿⣿⡿⠋⣿⣿⣿⢽⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣴⣿⣿⣿⣿⣿⣿⣟⢣⡳⢏⠒⡥⢓⡜⣌⠳⣬⡹⣧⣿⣿⣿⣿⢔⢄⣭⣕⣚⣯⣽⣟⣿⡾⣿⣿⣷⣿⣿⣗⣲⡤⣔⣸⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢏⣾⣿⣿⣿⣿⣿⣿⡟⠤⣛⠱⢊⠕⡘⠦⡜⣌⠳⣥⣛⠶⣿⣿⣿⡟⣴⣿⣿⣿⣉⡭⣅⠘⣿⣾⠺⣻⡟⠁⣼⣿⣿⣿⣿⣿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣾⣿⣿⣿⣿⣿⣿⣿⢁⠟⣠⣩⣬⣼⣴⣧⣼⣴⡫⢴⢹⢌⢿⣻⣽⣷⣿⣿⣿⣿⣷⣾⡬⢆⢸⣽⢿⣿⠃⢸⣿⣿⣿⣿⣿⣿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢃⣺⣾⣿⣿⣿⣿⣿⣿⣿⣿⣷⢩⠞⡘⢾⡿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⢿⣯⡿⠠⠹⠻⣿⣿⣿⣿⣿⣿⣿⣯⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⡉⢾⡽⣞⣯⡿⣿⢿⡿⢻⣿⣿⠟⢃⢸⣷⡇⠘⢄⡀⠈⠈⢿⣿⣿⣿⣿⡿⠈⣿⣿⣿⣿⣿⣿⣧⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠘⣿⢺⡝⣿⣭⣿⠁⣾⡿⠋⣴⣿⠘⣷⡇⡘⠀⢉⠢⣥⠀⡙⣿⣟⡋⠁⢠⣿⣿⣿⣿⣿⣿⡿⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣿⣿⣶⣦⢛⢿⢟⣽⣿⣿⢟⣵⣿⣿⣿⣿⡇⣧⣏⠼⣩⢿⡆⡀⠉⢠⣾⣿⣿⠐⣧⠁⣿⣶⣄⡂⠌⢷⣴⣘⣿⡇⠀⢸⣿⣿⣿⣿⣿⢟⣱⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⢹⢸⣾⣿⡿⣣⣿⣿⣿⣿⣿⡿⠁⣿⣿⣿⣤⣛⡇⡄⢰⠣⣜⢿⣿⡇⡿⠀⣿⣽⡟⠛⣮⣴⣩⢷⣿⡇⠀⢸⣿⣽⣻⠟⣡⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡘⣿⣿⡟⣰⣿⣿⣿⣛⢿⣿⢸⢸⣿⠟⣴⣿⣿⣿⣿⣿⣿⣧⠀⣿⣿⣿⣿⣽⡇⠃⢰⣬⣐⠎⣝⡇⡅⠀⣿⣿⡇⠀⣿⣿⣷⣯⣿⡇⠀⢸⣿⡿⢋⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣾⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡘⡟⣰⣿⣿⢳⣿⣿⣿⣿⢸⠸⣫⡞⣿⣿⣿⣿⣿⣿⡇⣿⡄⠸⣿⣷⣾⣿⡇⡃⢸⡧⢭⠱⣢⡇⡏⠀⣿⣿⡇⠀⣿⣿⣿⣿⣿⡇⠀⢸⣟⣷⡟⣿⣿⣛⠻⣿⣿⣷⠀⣰⣶⣶⣌⠻⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⡘⣿⣿⣿⣧⣛⣿⣞⣿⢸⢰⣿⣿⠹⣿⣿⣿⣿⣿⣿⣿⣧⠀⢿⣻⣿⣿⡇⠇⢸⣷⣏⡧⢥⡇⡳⠀⣿⣿⡇⠐⣛⠿⣿⣿⣿⡇⠀⢘⢻⣿⡧⢿⣿⣿⣶⣿⣿⣟⠀⣿⣿⣿⣿⣠⣿⣿⣿⣿⣿⣿⣻⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢋⣼⣷⡘⣿⣿⢿⣿⣿⣿⣿⠸⢸⣿⡿⢧⢻⣿⣿⣿⢻⣿⣯⣽⡄⠸⣿⣿⣿⡏⡄⢸⣿⣿⣿⣯⡇⡇⠀⣿⣿⡇⠀⣿⣿⣆⠹⣿⡇⠀⢸⡄⢿⡇⣿⣿⣿⣿⣿⣿⣯⠀⣿⠻⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣾⣿⣿⡷⣸⣭⣻⣾⣻⣯⣿⢱⢸⣿⣿⣯⠊⢿⣿⡟⣼⣿⣿⢯⣷⠀⢿⣿⢿⣗⠃⢸⣿⣿⣿⢻⣇⡇⠀⣿⣿⡇⠀⣿⣿⣿⣲⣿⡇⠀⢸⡇⢸⡇⣿⣿⣿⣃⣿⢿⡷⠀⣿⡆⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢹⣿⢿⣷⣿⢿⣿⣿⠬⢸⣿⣽⣿⣷⡈⢿⣵⣿⣿⢞⡞⢹⣦⣬⣯⣾⣯⠀⣼⣿⣿⣧⣬⡵⡇⠀⣿⣿⣦⣤⣿⣭⣿⣿⣿⡇⠀⢸⣷⠀⣿⢿⣿⣿⣿⣿⣿⡗⠀⢿⣿⡌⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣿⣏⣿⣿⣮⣏⡿⣾⣿⢈⢸⣿⣿⢿⣿⣷⡈⢿⣿⣟⣪⠇⠘⣿⣿⣿⣿⣷⣆⢿⣿⣿⣿⣿⡗⡟⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⢸⣿⣧⠘⣾⣿⣷⣿⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⢯⣟⣿⣷⣝⡿⣾⢿⡿⣯⣶⣦⣿⣿⣿⣻⡿⣷⡈⢻⡽⣐⠛⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣧⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⣼⣿⣿⣧⡈⢿⣿⣿⣿⣿⣿⣯⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡾⣟⡿⣽⡾⣿⣿⣿⣿⣟⢿⡹⢯⣟⣯⣿⢳⡿⣹⣷⡀⢻⡖⢼⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⡧⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⢀⣾⣿⣿⣿⣿⣿⡄⢿⣿⣿⣿⣿⡿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡽⣳⠿⣽⣿⣿⣿⣟⢮⣝⡳⢞⡼⣣⢟⡼⣳⠏⣷⡀⢻⣨⠀⠸⣿⣛⣵⣿⣿⣿⣿⣿⣿⣿⡇⣟⣷⣿⣿⣿⣿⣿⣿⣿⢏⣴⣿⣿⣿⣿⣿⣿⣿⣧⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣝⣿⣿⣿⣿⣿⣿⣹⠲⣝⠫⡖⡝⣎⠷⣿⣾⣻⣿⣄⠛⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣯⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠳⣌⠳⡘⢦⡑⠞⣬⢙⢿⣿⣿⣦⡀⡀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⡇⡷⣟⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠱⣌⢣⡙⢦⡙⠞⣤⢫⠾⣟⣿⣿⣿⣦⣀⡀⠀⠙⠻⢿⣿⣿⣿⣿⣯⣟⣧⣿⣭⣿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠌⢦⠙⡤⡙⣎⠶⣩⣾⣴⣿⣿⣿⣿⣿⣿⣿⣿⢏⡙⠿⣿⣿⣿⡷⣟⣾⣿⣿⢼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⡟⣦⡩⢰⢱⢊⡵⣯⢷⣯⡿⣽⣿⣿⡿⣯⣟⡿⣷⣜⠢⣝⠛⣿⡟⣧⢿⣿⣿⣻⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣽⣟⡿⣿⣿⢧⣛⣬⢻⣄⣇⢻⣜⡯⣷⢯⣟⡷⣯⡿⣿⡟⢿⣯⠻⢿⢏⡺⠷⡄⢘⣧⢯⠘⠟⣛⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⢯⣟⡿⣾⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣿⡳⢯⣟⣿⣽⣿⡜⡲⢭⢲⡎⡿⣜⣳⣯⠷⣷⡪⢋⢈⣠⣬⢴⠒⣎⣓⣓⣲⣖⣏⡮⣗⣻⣻⣞⣢⣽⣹⢩⢛⡚⢿⡿⣿⣿⣿⣿⣿⢿⣿⣻⢾⣽⣛⡾⣽⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣷⡿⣿⣿⣿⣿⣿⣏⡿⣽⣻⢾⣽⣳⢭⡓⡧⣝⢧⣛⢶⣯⣷⡷⢘⣮⣷⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⡗⣯⢽⣿⣿⣿⣿⣿⣷⡳⣍⡞⣦⠹⣿⣿⡿⣭⢳⡞⣭⡟⣞⣧⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣽⡾⣽⣻⣽⡿⣿⣿⣿⣷⢣⣟⣯⡷⣯⡷⣙⠾⣭⣛⣯⣿⣽⣟⣶⣹⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⣷⢻⣿⣿⣿⣿⣿⣿⣿⣽⣳⣯⢿⣜⡟⣾⡱⣏⠾⣵⢫⢿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣽⣳⣟⡾⣽⡿⣷⢿⡽⣗⢮⢷⣻⢷⣻⢌⡿⣜⣳⢞⣼⣿⣾⣿⣿⣷⣿⣿⣿⢟⠻⣟⢋⡛⡹⡋⢏⠣⢱⡏⡹⡿⡛⠿⣿⣿⣿⣿⣟⣾⣿⢿⣿⡾⡱⢏⡻⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣳⣯⣟⣷⣻⢯⡿⣝⡯⡞⣭⢏⡿⣽⣞⣳⡽⣎⠿⣜⣿⣿⣟⣿⣿⣿⣞⣯⢾⣘⡆⢣⢌⡱⠌⡆⠇⡸⣇⠱⡥⣙⢮⡹⢽⣿⣿⣿⣿⣿⣿⣿⣷⢯⣫⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⡽⣫⣟⠾⣝⡾⣙⢖⣫⢽⣳⢯⣗⣻⣜⡻⣜⡹⣿⣿⣿⣿⣿⣿⣏⣾⣿⣽⡟⣶⣥⣋⣔⠃⠷⡌⠳⡌⡵⢢⣽⣿⣿⣿⣿⣿⣿⣿⣿⡿⢧⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣭⣟⢧⣏⡹⢦⡝⣮⢳⢏⡾⣱⢎⠷⣜⡳⡽⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣼⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣲⡙⡦⡝⣎⠻⣎⢷⡹⢎⣛⡘⣓⣉⠓⡫⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⡇⠐⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣝⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢣⡛⡴⠹⣌⠳⣍⠶⣩⢛⡜⣳⣓⣮⣻⣹⢏⣿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣙⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⣫⣜⠱⡹⣌⠳⣌⠲⢡⢎⡴⢏⡾⢵⡳⢯⣟⡾⣻⢯⣟⣿⣿⢿⣿⣿⣿⣿⡇⠀⢸⣿⣿⣿⣿⣿⣿⠿⣏⡳⣝⣎⢷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣷⣳⢮⣹⠱⣎⠵⣈⢇⠧⣞⣭⢻⣜⢯⣽⡻⣾⡽⣿⣟⣻⣻⣼⣿⣳⢯⡟⣭⡇⠀⢸⣿⢿⡻⣜⢫⢎⡽⡸⢵⣒⢮⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣯⣿⣾⣷⣾⣵⣣⢎⢿⣸⣜⡳⢎⡷⣖⢷⢧⡟⡷⢯⣿⣿⣿⣳⣟⣯⡽⣲⡇⠀⢸⡭⢲⡝⣬⠳⣮⢕⡯⢳⡭⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⡵⣞⣞⡺⣖⢮⣝⡻⡼⠽⢮⡭⣽⣝⡿⣿⠽⣎⠷⣩⢶⡹⣥⢇⠀⡞⣜⢣⢞⣥⠻⣴⢫⡞⣧⣛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢽⣚⣳⡞⣵⢫⠟⣬⢳⣝⢿⣙⡞⣭⢾⡹⢧⡻⣜⡳⢭⢶⣙⢦⣻⠀⡟⣜⢮⣓⢮⡻⣴⣿⣾⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⡯⡗⣯⠷⡽⢭⢫⡻⣵⢛⡞⣳⢚⡵⢪⠶⣙⠧⡳⢌⣳⡙⢮⣙⢦⡳⢸⡱⣏⣾⣽⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⢟⢏⣸⣽⣻⠽⣶⡭⣹⣭⢟⡭⢏⢧⢓⡆⡳⡜⢣⢍⡞⣥⢛⡌⢧⠓⣍⠶⣩⢗⢮⡳⣝⢧⣛⣾⡽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣾⣾⣵⣯⣍⣳⢨⡹⢱⡎⡷⢪⡝⢢⢇⡜⡱⣜⢣⡞⡜⣆⠏⡜⣡⣉⠦⣛⡜⣮⢳⡽⣞⣯⢿⣳⡿⣽⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣵⡻⣝⠳⣜⢣⠞⡼⣑⢎⡳⡜⡱⡜⡸⣔⢣⡜⣣⢧⣛⢶⢫⢞⡽⣞⡿⣽⣻⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣷⠻⣜⠫⡜⢥⠛⡰⡡⢎⡱⢎⡵⢱⠳⣬⣓⢾⡱⢯⣞⣭⢳⣫⢞⡵⣏⡷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣾⣹⢺⢅⡛⢤⢋⠔⡱⢌⣒⢣⡚⣥⠻⣴⡹⢮⣽⣻⢾⣭⡷⣯⢾⡽⣽⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢳⡭⣓⠮⡜⡡⢎⡜⠤⢣⠜⣢⡙⢦⡛⠶⣭⢳⣯⢿⣿⣿⣿⣟⣯⡿⣷⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡩⠞⡰⡑⠦⠸⡌⡅⣎⠱⡜⣣⢝⡻⡜⡿⣽⣿⣿⣿⣿⣿⡿⣽⣯⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⠳⣱⢉⠲⣑⠜⡰⢎⡳⣙⠴⣋⡶⣽⣻⢷⣻⣟⡿⣿⡿⣽⣟⣯⣿⡿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣷⣍⠦⡉⢖⡡⢎⠱⢎⣵⣩⢞⡧⣟⣳⡽⣯⠷⣯⣟⢷⡻⢧⣟⢾⣳⢿⡽⣻⢾⣽⣻⣟⡿⣿⣯⣷⢿⣽⣻⡿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿s\e[0m\n";   sleep 0.1; done
-
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=177DCXXvJtl-t_1bxI_PfFGBbafnWVALq' -O x.png
-ascii-image-converter x.png -C --color-bg
-sudo rm x.png
-# Create directory and give execution permission
-mkdir xdeb && chmod +x xdeb
-
-# Change to the new directory
-cd xdeb
-
-# Download the file from the specified URL using wget
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1WBPGSeLmoFC9fqEWcUnGYbQvEmGjimy7' -O xdebs.zip
-
-# Extract the downloaded zip file
-unzip xdebs.zip
-
-# Give execution permission to all files in the current directory
-chmod +x *
-
-# Install all .deb files found in the current directory using dpkg
-sudo dpkg -i *.deb
-
-cd ..
-# Delete the folder named xdeb
-sudo rm -rf xdeb
-
-# Function to display the loading bar
-show_loading_bar() {
-  local progress="$1"
-  local bar_length=30
-  local filled_length=$((progress * bar_length / 100))
-  local empty_length=$((bar_length - filled_length))
-  local filled_bar=$(printf "%${filled_length}s" | tr ' ' '=')
-  local empty_bar=$(printf "%${empty_length}s" | tr ' ' '-')
-  echo -ne "\r[${filled_bar}${empty_bar}] ${progress}%"
-}
-
-# Initial loading message
-echo "xkaliber system loading please wait"
-
-# Simulate update process with a loop and sleep (replace with actual apt update)
-total_steps=50 # Example: Adjust based on expected update steps
-current_step=0
-while [ "$current_step" -le "$total_steps" ]; do
-  progress=$((current_step * 100 / total_steps))
-  show_loading_bar "$progress"
-  sleep 0.1 # Simulate work
-  current_step=$((current_step + 1))
-done
-
-echo "" # Newline after the loading bar
-
-# Execute the actual update (output is still suppressed)
-sudo apt update > /dev/null 2>&1
-
-# Simulate upgrade process with a loop and sleep (replace with actual apt upgrade)
-total_packages=$(apt list --upgradable 2> /dev/null | grep -c '\[upgradable from:')
-if [ "$total_packages" -gt 0 ]; then
-  package_count=0
-  packages=$(apt list --upgradable 2> /dev/null | grep '\[upgradable from:' | awk '{print $1}')
-  for package in $packages; do
-    package_count=$((package_count + 1))
-    progress=$((package_count * 100 / total_packages))
-    show_loading_bar "$progress"
-    # Simulate actual upgrade (replace with actual apt upgrade for each package)
-    sleep 0.2
-  done
-  echo "" # Newline after the loading bar
-else
-  echo "No packages to upgrade."
+sudo apt install yad -y
+# Check if running in a Wayland session
+if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
+    echo "Wayland session detected."
 fi
 
-# Execute the actual upgrade (output is still suppressed)
-sudo apt upgrade -y > /dev/null 2>&1
+# Define a temporary named pipe and a log file
+LOGFILE=$(mktemp)
+FIFO=$(mktemp -u)
+mkfifo $FIFO
 
-# Display the completion message
-echo "All updates are complete."
+# Function for the installation process
+run_installer() {
+    (
+        echo "0"
+        echo "#Initializing installation..."
+        
+        # Create directory and give execution permission
+        echo "10"
+        echo "#Creating directory and fetching files..."
+        mkdir xdeb && chmod +x xdeb
+        cd xdeb
+        # Capture output of wget and redirect to the log
+        wget https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/xdebs.zip
+        
+        echo "30"
+        echo "#Extracting files..."
+        unzip xdebs.zip
+        chmod +x *
+        
+        echo "50"
+        echo "#Installing .deb packages..."
+        
+        # This loop provides realistic progress feedback for the dpkg installation
+        total_debs=$(ls -1 *.deb | wc -l)
+        current_deb=0
+        for deb_file in *.deb; do
+            current_deb=$((current_deb + 1))
+            progress=$((50 + (current_deb * 50 / total_debs)))
+            echo "$progress"
+            echo "#Installing $deb_file..."
+            # Capture output of dpkg and redirect to the log
+            sudo dpkg -i "$deb_file"
+        done
+
+        cd ..
+        sudo rm -rf xdeb
+        sudo rm xdebs.zip
+        
+        echo "100"
+        echo "#Installation complete."
+    ) | tee "$LOGFILE" | yad --progress --width=500 --height=150 --title="xkaliber Updater/Installer" --text="Please wait... checking xkaliber updates" --auto-close --pulsate
+
+    yad --info --button="OK:0" --text="The xdeb repository has been successfully Updated/Installed."
+    
+    # Display the log file in a new yad window
+    yad --text-info --width=800 --height=600 --title="Installation Log" --button="Close:0" --filename=$LOGFILE
+}
+
+# The run_updater function would be structured similarly
+run_updater() {
+    # ... your updater logic here ...
+    (
+        # Your commands
+        sudo apt update
+        sudo apt upgrade -y
+        # ... etc.
+    ) | tee "$LOGFILE" | yad --progress --width=500 --height=150 --title="xkaliber Updater" --text="Please wait... checking for new packages" --auto-close --pulsate
+
+    yad --info --button="OK:0" --text="All updates are complete."
+    yad --text-info --width=800 --height=600 --title="Update Log" --button="Close:0" --filename=$LOGFILE
+}
+
+# Main YAD dialog to choose an action
+yad --image="gtk-preferences" \
+    --title="xkaliber System Manager" \
+    --text="Please select an option to manage your system." \
+    --button="Update/Install Repository:1" \
+    --button="Run Updates:2" \
+    --button="Quit:0"
+
+# Capture the exit code of the yad command
+case $? in
+    1) # Install Repository
+        run_installer
+        ;;
+    2) # Run Updates
+        run_updater
+        ;;
+    *) # Quit or other
+        ;;
+esac
+
+# Clean up the temporary log file and named pipe
+rm -f $LOGFILE
+rm -f $FIFO
