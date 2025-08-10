@@ -143,18 +143,14 @@ Follow these simple steps to get started:
 
 1.  **Download the installer:**
     ```bash
-    git clone https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/xupdate.sh-6.0.deb
+    wget https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/xupdate
     ```
 2.  **Install the package:**
     ```bash
-    sudo dpkg -i xupdate.sh-6.0.deb
+    bash xupdate
+  
     ```
-3.  **Run the update command:**
-    Open your terminal and type:
-    ```bash
-    xupdate.sh
-    ```
-4.  **Access the main menu:**
+3.  **Access the main menu:**
     To view and access the repository's features, run:
     ```bash
     xmenu.sh
