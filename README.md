@@ -1,7 +1,7 @@
 # Xkaliber Repository updates :
 8/10 /25
 
-fully moved old hosting and server files into githubs hosting
+all updates and hosting is fully through github officially
 
 8/8/25
 
