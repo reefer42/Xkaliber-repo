@@ -2,7 +2,7 @@
 
 8/11/25
 
-our official iso updated to support mobile and now desktop (desktop users switch desktop at login screen)
+our official iso updated to support mobile and now desktop (desktop users switch desktop at login screen for xfce or plasma desktop)
 
 8/10 /25
 
