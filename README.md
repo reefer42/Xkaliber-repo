@@ -193,7 +193,7 @@ https://www.youtube.com/watch?v=9EN8QjF1ivk&t=7s
 
 https://www.youtube.com/watch?v=IcMNvZt0QmU&t=8s
 
-**for those looking for the steamdeck/legion go official iso of xkaliber os can be found here**
+**for those looking for the official iso of xkaliber can be found here with support for steamdeck, pockets pcs and desktop**
 
 HAS HEAVY SUPPORT FOR TOUCH AND KEYBORDLESS DEVICES
 
