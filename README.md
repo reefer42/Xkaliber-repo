@@ -2,7 +2,7 @@
 
 8/11/25
 
-iso updated to support mobile and now desktop (desktop users switch desktop at login screen)
+our official iso updated to support mobile and now desktop (desktop users switch desktop at login screen)
 
 8/10 /25
 
