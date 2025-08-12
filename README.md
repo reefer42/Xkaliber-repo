@@ -1,4 +1,9 @@
 # Xkaliber Repository updates :
+
+8/11/25
+
+iso updated to support mobile and now desktop (desktop users switch desktop at login screen)
+
 8/10 /25
 
 all updates and hosting is fully through github officially
@@ -193,6 +198,8 @@ https://www.youtube.com/watch?v=IcMNvZt0QmU&t=8s
 HAS HEAVY SUPPORT FOR TOUCH AND KEYBORDLESS DEVICES
 
 drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk
+
+MD5 : cc623ac622b0212048877abc3d60a5dc
 
 password to iso is: **kali**
 
