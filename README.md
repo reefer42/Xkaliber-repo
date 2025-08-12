@@ -203,7 +203,7 @@ MD5 : cc623ac622b0212048877abc3d60a5dc
 
 password to iso is: **kali**
 
-this version only supports KDE but is keyboardless dedicated 
+this version only supports KDE but is keyboardless dedicated (now supports desktops)
 
 search through applications for the installer after booting this iso
 
