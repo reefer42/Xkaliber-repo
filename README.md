@@ -199,7 +199,7 @@ HAS HEAVY SUPPORT FOR TOUCH AND KEYBORDLESS DEVICES
 
 drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk
 
-MD5 : cc623ac622b0212048877abc3d60a5dc
+MD5 : 0dbfe7bdb07ac627dfd95fb76703ee77
 
 password to iso is: **kali**
 
