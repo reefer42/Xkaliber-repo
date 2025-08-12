@@ -1,5 +1,9 @@
 # Xkaliber Repository updates :
 
+8/12/25
+
+iso update : fixes and improvment changes along with the new git updating server
+
 8/11/25
 
 our official iso updated to support mobile and now desktop (desktop users switch desktop at login screen for xfce or plasma desktop)
@@ -199,7 +203,7 @@ HAS HEAVY SUPPORT FOR TOUCH AND KEYBORDLESS DEVICES
 
 drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk
 
-MD5 : 0dbfe7bdb07ac627dfd95fb76703ee77
+MD5 : 9f67076dc1985348e9e3743a794d78ea
 
 password to iso is: **kali**
 
