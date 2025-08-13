@@ -2,7 +2,7 @@
 
 8/12/25
 
-iso update : fixes and improvment changes along with the new git updating server
+iso update : fixes and improvements changes along with the new git updating server
 
 8/11/25
 
