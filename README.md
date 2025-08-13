@@ -6,7 +6,7 @@ iso update : fixes and improvements changes along with the new git updating serv
 
 8/11/25
 
-our official iso updated to support mobile and now desktop (desktop users switch desktop at login screen for xfce or plasma desktop)
+our official iso updated to support mobile and now desktop (desktop users switch desktop at login screen for xfce or plasma desktop and keep in mind has limited desktop support. for desktop users we advise to just add our repo)
 
 8/10 /25
 
