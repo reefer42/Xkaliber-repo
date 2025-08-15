@@ -1,4 +1,8 @@
 # Xkaliber Repository updates :
+8/15/25
+
+corrected links on main scriptx branch 
+
 
 8/12/25
 
