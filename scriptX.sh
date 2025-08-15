@@ -23,7 +23,7 @@ run_installer() {
         mkdir xdeb && chmod +x xdeb
         cd xdeb
         # Capture output of wget and redirect to the log
-        wget https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/xdebs.zip
+        https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/xdebs.zip
         
         echo "30"
         echo "#Extracting files..."
