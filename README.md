@@ -3,6 +3,8 @@
 
 corrected links on main scriptx branch 
 
+updated rmwebui stablediffusion image generation for amd and steamdeck users 
+
 
 8/12/25
 
