@@ -177,7 +177,7 @@ Follow these simple steps to get started:
     ```
 
      
-   **YOU MUST RUN THE XDOCKER OPTION BEFORE USING ANY OTHER OPTION FROM THE REPO MEMU !!!**
+   **YOU MUST RUN THE XDOCKER OPTION BEFORE USING ANY OTHER OPTION FROM THE REPO MENU !!!**
     
      # if xdocker fails just run
      
@@ -185,7 +185,7 @@ Follow these simple steps to get started:
      
      # and try again
 
-   **YOU MUST RUN THE XDOCKER OPTION BEFORE USING ANY OTHER OPTION FROM THE REPO MEMU !!!**
+   **YOU MUST RUN THE XDOCKER OPTION BEFORE USING ANY OTHER OPTION FROM THE REPO MENU !!!**
 
     
 **(Note: These commands are shell scripts with `.sh` extensions, ensuring no conflicts with existing system utilities.)**
