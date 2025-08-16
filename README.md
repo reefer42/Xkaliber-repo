@@ -153,7 +153,8 @@ Dive into the world of Artificial Intelligence with pre-configured, locally host
 
 All AI options are pre-configured for immediate use, so you can enjoy these powerful features right away. Xkaliber OS also provides AI and image generation capabilities specifically tailored for **pocket PCs** like the Steam Deck.
 
-(all software runs and installs into the current directory that your in when selecting from xmenu to install
+(all software runs and installs into the current directory that your in when selecting from xmenu to install)
+
 -----
 
 ### **Installation & Usage**
