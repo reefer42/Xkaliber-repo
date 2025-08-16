@@ -207,7 +207,7 @@ https://www.youtube.com/watch?v=IcMNvZt0QmU&t=8s
 
 HAS HEAVY SUPPORT FOR TOUCH AND KEYBORDLESS DEVICES
 
-drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk
+**drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk**
 
 MD5 : 9f67076dc1985348e9e3743a794d78ea
 
