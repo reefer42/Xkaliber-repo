@@ -1,4 +1,14 @@
 # Xkaliber Repository updates :
+8/17/25 
+
+updated iso for desktop user support and added budgie DE optional from login screen (iso is uploading currently) 
+
+also patched for nvidia support driver 550
+
+MD5:10b77bb7d6f41b0f0e4440d429dbc6e6
+
+<img width="614" height="203" alt="system" src="https://github.com/user-attachments/assets/4b624277-d3fa-42d0-aceb-9b6822ca1ed5" />
+
 8/15/25
 
 corrected links on main scriptx branch 
@@ -211,7 +221,7 @@ HAS HEAVY SUPPORT FOR TOUCH AND KEYBORDLESS DEVICES
 
 **drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk**
 
-MD5 : 9f67076dc1985348e9e3743a794d78ea
+MD5 : 10b77bb7d6f41b0f0e4440d429dbc6e6
 
 password to iso is: **kali**
 
