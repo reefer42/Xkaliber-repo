@@ -7,6 +7,7 @@ also patched for nvidia support driver 550
 
 MD5:10b77bb7d6f41b0f0e4440d429dbc6e6
 
+![budgie](https://github.com/user-attachments/assets/a9f1bbbd-7a07-4fea-abae-f2e820f24ccf)
 <img width="614" height="203" alt="system" src="https://github.com/user-attachments/assets/4b624277-d3fa-42d0-aceb-9b6822ca1ed5" />
 
 8/15/25
