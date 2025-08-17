@@ -1,7 +1,7 @@
 # Xkaliber Repository updates :
 8/17/25 
 
-updated iso for desktop user support and added budgie DE optional from login screen (iso is uploading currently) 
+updated iso for desktop user support and added budgie DE optional from login screen 
 
 also patched for nvidia support driver 550
 
