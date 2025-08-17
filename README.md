@@ -226,7 +226,11 @@ MD5 : 10b77bb7d6f41b0f0e4440d429dbc6e6
 
 password to iso is: **kali**
 
-this version only supports KDE but is keyboardless dedicated (now supports desktops)
+this version only supports KDE but is keyboardless dedicated (now supports desktops) default DE is plasma mobile :
+
+<img width="1280" height="800" alt="home3" src="https://github.com/user-attachments/assets/6ff9a3ed-8e67-4c70-94c0-feb585b76204" />
+<img width="1280" height="800" alt="home2" src="https://github.com/user-attachments/assets/635765ff-5aba-41f1-9009-b922ad8980a9" />
+<img width="1280" height="800" alt="home1" src="https://github.com/user-attachments/assets/d1d39660-0554-47ba-bef1-519008be8d07" />
 
 search through applications for the installer after booting this iso
 
