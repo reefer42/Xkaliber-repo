@@ -8,6 +8,8 @@ wget https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/deckym
 
 <img width="1280" height="800" alt="Screenshot_20250818_162828" src="https://github.com/user-attachments/assets/b4e93d39-d443-4af3-954e-2273c26cf16d" />
 <img width="1280" height="800" alt="Screenshot_20250818_163931" src="https://github.com/user-attachments/assets/67e73321-de3a-4a43-970f-a422923b1fd3" />
+<img width="1280" height="800" alt="Screenshot_20250818_164322" src="https://github.com/user-attachments/assets/a1de775d-2886-4ade-9fc1-e2ed02e48ac8" />
+
 8/17/25 
 
 updated iso for desktop user support and added budgie DE optional from login screen 
