@@ -123,7 +123,9 @@ Reefer AI
 
 cubic
 
-and more 
+image generation and local ai tools 
+
+and more with more also coming through updates 
 
 <img width="539" height="333" alt="Screenshot_2025-08-05_08-53-03" src="https://github.com/user-attachments/assets/be40f60c-0f03-4a0e-b5da-fb80a09e7be9" />
 
