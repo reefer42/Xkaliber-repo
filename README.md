@@ -4,6 +4,8 @@
 
 created a non-steam game library shortcut launcher for deckyloader. download the shortcut and add as a non steam game to launch decky (requires deckyloader to be installed first from our menu)
 
+give file permissions to execute.
+
 wget https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/deckymenu.sh
 
 <img width="1280" height="800" alt="Screenshot_20250818_162828" src="https://github.com/user-attachments/assets/b4e93d39-d443-4af3-954e-2273c26cf16d" />
