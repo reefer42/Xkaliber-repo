@@ -1,6 +1,6 @@
 # Xkaliber Repository updates :
 
-8/1825
+8/18/25
 
 created a non-steam game library shortcut launcher for deckyload. download the shortcut and add as a non steam game to launch decky
 
