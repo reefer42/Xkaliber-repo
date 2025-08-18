@@ -123,6 +123,10 @@ Reefer AI
 
 cubic
 
+windows 11 local docker image 
+
+unityhub
+
 image generation and local ai tools 
 
 and more with more also coming through updates 
