@@ -93,6 +93,38 @@ Xkaliber OS takes a unique approach to system enhancement. This repository is me
 
 A key focus of this repository is its optimization for handheld pocket PCs like the Steam Deck, GPD WIN 4, and similar devices, particularly for integrated AI tools and difficult installations. All included software is private and locally hosted, requiring no subscriptions or paid API access for use.
 
+This supports: 
+
+Waydroid 
+
+Steamvr
+
+Ollama
+
+Openwebui
+
+Localai
+
+Docker
+
+Distrobox
+
+Boxbuddy
+
+Kde plasma mobile 
+
+Decky loader
+
+Waydroid extras 
+
+Alvr
+
+Reefer AI
+
+cubic
+
+and more 
+
 <img width="539" height="333" alt="Screenshot_2025-08-05_08-53-03" src="https://github.com/user-attachments/assets/be40f60c-0f03-4a0e-b5da-fb80a09e7be9" />
 
 <img width="2561" height="1600" alt="Screenshot_20250723_131456" src="https://github.com/user-attachments/assets/00a205fa-96be-4bea-96a2-588437639bbe" />
