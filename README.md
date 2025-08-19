@@ -148,6 +148,8 @@ windows 11 local docker image
 
 unityhub
 
+handheld daemon
+
 image generation and local ai tools 
 
 we have a full iso image that has the repo included thats tailored for desktops and handhelds such as the steamdeck & legion go etc
