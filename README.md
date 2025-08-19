@@ -316,6 +316,8 @@ https://github.com/casualsnek/waydroid_script
 
 https://github.com/canonical/snapcraft.io
 
+https://github.com/hhd-dev/hhd
+
 https://github.com/LizardByte/Sunshine
 
 https://github.com/docker
