@@ -1,5 +1,11 @@
 # Xkaliber Repository updates :
 
+8/19/25
+
+added support for pied tts voice changer and HANDHELD DAEMON FOR TDP AND BUTTON CONTROLS.
+
+<img width="1280" height="800" alt="Screenshot_20250819_115653" src="https://github.com/user-attachments/assets/97315787-0f69-4041-ad75-967f7b6ed897" />
+
 8/18/25
 
 created a non-steam game library shortcut launcher for deckyloader thats keyboardless and button free method and works for any device or pc. download the shortcut and add as a non steam game to launch decky (requires deckyloader to be installed first from our menu)
