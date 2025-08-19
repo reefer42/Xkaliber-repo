@@ -204,6 +204,12 @@ AND MAKE SURE TO REBOOT AFTER RUNNING XDOCKER
       * **Note:** Does support Wayland but works best on x11. Works great on handhelds running APT-based OS, such as Steam Deck, GPD, and Legion Go.
 
   * **Flexible Waydroid Installation:** Install Waydroid in an isolated container with full hardware access. Choose optional packages like Magisk, GApps, and Libndk for a customized Android experience on your Linux device.
+  * 
+(for gamepad support open terminal and run) :
+    
+    waydroid prop set persist.waydroid.udev true
+    
+    waydroid prop set persist.waydroid.uevent true
 
   * **Boosted Network Performance:** Speed up your online experience with a local DNS cache script for `dnsmasq`, significantly enhancing network speeds and download rates.
 
