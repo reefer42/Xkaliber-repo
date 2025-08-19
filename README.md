@@ -2,7 +2,7 @@
 
 8/19/25
 
-added support for pied tts voice changer and HANDHELD DAEMON FOR TDP AND BUTTON CONTROLS. THE PACKAGE FOR HHD IS IN OUR REPO BE SURE TO UPDATE  
+added 2 new packages: pied tts voice changer and HANDHELD DAEMON FOR TDP AND BUTTON CONTROLS. THE PACKAGE FOR HHD IS IN OUR REPO BE SURE TO UPDATE  
 
 <img width="1280" height="800" alt="Screenshot_20250819_115653" src="https://github.com/user-attachments/assets/97315787-0f69-4041-ad75-967f7b6ed897" />
 
