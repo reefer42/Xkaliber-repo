@@ -2,7 +2,7 @@
 
 8/18/25
 
-created a non-steam game library shortcut launcher for deckyloader and works for any device or pc. download the shortcut and add as a non steam game to launch decky (requires deckyloader to be installed first from our menu)
+created a non-steam game library shortcut launcher for deckyloader thats keyboardless and button free method and works for any device or pc. download the shortcut and add as a non steam game to launch decky (requires deckyloader to be installed first from our menu)
 
 give file permissions to execute.
 
