@@ -24,7 +24,7 @@ updated iso for desktop user support and added budgie DE optional from login scr
 
 also patched for nvidia support driver 550
 
-MD5:10b77bb7d6f41b0f0e4440d429dbc6e6
+MD5:
 
 ![budgie](https://github.com/user-attachments/assets/a9f1bbbd-7a07-4fea-abae-f2e820f24ccf)
 
@@ -288,7 +288,7 @@ HAS HEAVY SUPPORT FOR TOUCH AND KEYBORDLESS DEVICES
 
 **drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view?usp=drivesdk**
 
-MD5 : 10b77bb7d6f41b0f0e4440d429dbc6e6
+MD5 : f3474692e0d8f33c654f3aed9621286f
 
 password to iso is: **kali**
 
