@@ -112,6 +112,8 @@ Xkaliber OS takes a unique approach to system enhancement. This repository is me
 
 A key focus of this repository is its optimization for handheld pocket PCs like the Steam Deck, GPD WIN 4, and similar devices, particularly for integrated AI tools and difficult installations. All included software is private and locally hosted, requiring no subscriptions or paid API access for use.
 
+**ensure time and date are correct or installers may not work**
+
 This supports: 
 
 Waydroid 
