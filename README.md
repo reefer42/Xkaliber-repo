@@ -114,6 +114,8 @@ A key focus of this repository is its optimization for handheld pocket PCs like 
 
 **ensure time and date are correct or installers may not work**
 
+**(especially before running xdocker option)**
+
 This supports: 
 
 Waydroid 
