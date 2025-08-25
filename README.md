@@ -112,7 +112,7 @@ Xkaliber OS takes a unique approach to system enhancement. This repository is me
 
 A key focus of this repository is its optimization for handheld pocket PCs like the Steam Deck, GPD WIN 4, and similar devices, particularly for integrated AI tools and difficult installations. All included software is private and locally hosted, requiring no subscriptions or paid API access for use.
 
-**ensure time and date and region are correct or installers may not work**
+**ensure time and date and region are correct and are connected to the internet or installers may not work**
 **(especially before running xdocker option)**
 
 This supports: 
