@@ -155,6 +155,8 @@ unityhub
 
 handheld daemon
 
+goose AI agent
+
 image generation and local ai tools 
 
 we have a full iso image that has the repo included thats tailored for desktops and handhelds such as the steamdeck & legion go etc
@@ -314,6 +316,8 @@ search through applications for the installer after booting this iso
 **ADDITIONAL SOURCES**
 
 https://github.com/valvesoftware
+
+https://github.com/block/goose
 
 https://github.com/waydroid/waydroid
 
