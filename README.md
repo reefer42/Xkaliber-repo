@@ -1,5 +1,9 @@
 # Xkaliber Repository updates :
 
+9/6/25
+
+added goose ai agent software for physical and work realated related tasks and more
+
 8/19/25
 
 added 2 new packages: pied tts voice changer and HANDHELD DAEMON FOR TDP AND BUTTON CONTROLS. THE PACKAGE FOR HHD IS IN OUR REPO BE SURE TO UPDATE  
