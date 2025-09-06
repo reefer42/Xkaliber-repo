@@ -357,7 +357,7 @@ https://github.com/mudler/LocalAI
 
 ### **An Enchanted Circle of Gratitude**
 
-To the wizards who cast the spells and forged the tools that brought this project to life, our deepest thanks.
+To the wizards who cast the spells and help forged the tools that brought this project to life, our deepest thanks.
 
 * **Mark Dodd:** The Sorcerer of Solutions
 * 
