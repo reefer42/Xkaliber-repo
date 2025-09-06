@@ -2,7 +2,7 @@
 
 9/6/25
 
-added goose ai agent software for physical and work realated related tasks and more. fixed system updater, if having issues seeing new updates from xmenu just rerun the repo installer on this page and delete folder in home directory named xdeb (if it exists)
+added goose ai agent software for physical and work related tasks and more. fixed system updater, if having issues seeing new updates from xmenu just rerun the repo installer on this page and delete folder in home directory named xdeb (if it exists)
 
 8/19/25
 
