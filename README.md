@@ -3,7 +3,7 @@
 9/13/25
 
 new iso update 
-changes include : fixed missing kde elements for users using kde dekstop and now provides full and equal support for handhelds and desktops, this iso also contains the latest repo version 
+changes include : fixed missing kde elements for users using kde dekstop and now provides full and equal support for handhelds and desktops, this iso also contains the latest repo version . this iso release is stable and everything is in full working operation. its recommended to install the os iso using ventoy and for those not looking for an iso image the steps to just add this repo are further down this page 
 
 9/6/25
 
