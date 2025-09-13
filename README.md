@@ -298,6 +298,7 @@ https://www.youtube.com/watch?v=IcMNvZt0QmU&t=8s
 **for those looking for the official iso of xkaliber can be found here with support for steamdeck, pocket pcs and desktops amd64**
 
 HAS HEAVY SUPPORT FOR TOUCH AND KEYBORDLESS DEVICES
+USE VENTOY TO FLASH THIS ISO
 
 https://drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view
 
