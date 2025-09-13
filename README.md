@@ -1,5 +1,10 @@
 # Xkaliber Repository updates :
 
+9/13/25
+
+new iso update 
+changes include : fixed missing kde elements for users using kde dekstop and now provides full and equal support for handhelds and desktops, this iso also contains the latest repo version 
+
 9/6/25
 
 added goose ai agent software for physical and work related tasks and more. fixed system updater, if having issues seeing new updates from xmenu just rerun the repo installer on this page and delete folder in home directory named xdeb (if it exists)
