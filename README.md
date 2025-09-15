@@ -386,3 +386,7 @@ To the wizards who cast the spells and help forged the tools that brought this p
 * 
 * **Alexander Buren:** The Grand Architect of AI
 
+*  **Original and Main Engineer**
+                😃
+*  **Kenneth Harris (reefer):**
+
