@@ -380,9 +380,9 @@ That’s it—ready to create a personalized live image in just a few steps!
 
 To the wizards who cast the spells and help forged the tools that brought this project to life, our deepest thanks.
 
-* **Mark Dodd:** The Sorcerer of Solutions
+* **Mark Dodd:** The Sorcerer of Solutions in engineering
 * 
-* **John Webber:** The Alchemist of Archival
+* **John Webber:** The Alchemist of Archival and web admin
 * 
 * **Alexander Buren:** The Grand Architect of AI
 
