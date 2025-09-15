@@ -31,7 +31,7 @@ wget https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/deckym
 
 updated iso for desktop user support and added budgie DE optional from login screen 
 
-also patched for nvidia support driver 550
+
 
 MD5:
 
