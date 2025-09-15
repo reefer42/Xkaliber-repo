@@ -374,7 +374,7 @@ https://github.com/mudler/LocalAI
 
 - **Continue designing** your system
 
-That’s it—ready to create a personalized live image in just a few steps!
+That’s it—ready to create a personalized live image in just a few steps!(for best results flashing isos we recommend using ventoy)
 
 ### **An Enchanted Circle of Gratitude**
 
