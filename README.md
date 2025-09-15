@@ -361,6 +361,20 @@ https://github.com/SteamDeckHomebrew/decky-loader
 https://github.com/mudler/LocalAI
 
 
+## Build Your Own Custom Live xkaliber Image!
+
+- **Get Cubic** from our repo or from  
+  <https://github.com/PJ-Singh-001/Cubic>
+
+- **Grab a live ISO** from the official Kali, Debian or Ubuntu sites (MUST BE A LIVE IMAGE SPECIFICLY)
+
+- **Load** the ISO into Cubic
+
+- **Add the xKaliber repo**
+
+- **Continue designing** your system
+
+That’s it—ready to create a personalized live image in just a few steps!
 
 ### **An Enchanted Circle of Gratitude**
 
