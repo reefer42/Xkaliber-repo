@@ -308,7 +308,7 @@ USE VENTOY TO FLASH THIS ISO
 
 https://drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view
 
-MD5 : 7afe64430a01ec8c075c5be2dfd5323a
+MD5 : 8ef561e53cb87150f8389b45c5e919d1
 
 password to iso is: **kali**
 
