@@ -1,8 +1,5 @@
 # Xkaliber Repository updates :
 
-9/17/25
-
-updated windows inside docker 
 
 9/13/25
 
