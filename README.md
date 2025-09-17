@@ -1,6 +1,11 @@
 # Xkaliber Repository updates :
 
+9/17/25
+
+updated windows inside docker 
+
 9/13/25
+
 
 new iso update 
 changes include : fixed missing kde elements for users using kde dekstop and now provides full and equal support for handhelds and desktops, this iso also contains the latest repo version . this iso release is stable and everything is in full working operation. its recommended to install the os iso using ventoy and for those not looking for an iso image the steps to just add this repo are further down this page. Also added a build your own custom section thats the easiest method for making your very own os with few simple steps. see bottom of page 
