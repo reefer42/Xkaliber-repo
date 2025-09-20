@@ -1,5 +1,8 @@
 # Xkaliber Repository updates :
 
+9/20/25
+
+updated the new gui for our package manager. it can be accessed typing in the word: xmenu   in any terminal and old menu can still be accessed typing in xmenu.sh
 
 9/13/25
 
