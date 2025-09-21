@@ -222,7 +222,7 @@ AND MAKE SURE TO REBOOT AFTER RUNNING XDOCKER
         
       * **Note:** Does support Wayland. Works great on handhelds running APT-based OS, such as Steam Deck, GPD, and Legion Go.
 
-  * **Flexible Waydroid Installation:** Install Waydroid in an isolated container with full hardware access. Choose optional packages like Magisk, GApps, and Libndk for a customized Android experience on your Linux device.
+  * **Flexible Waydroid Installation:** Install Waydroid in an isolated container with full hardware access. Choose optional packages like Magisk, GApps, and Libndk for a customized Android experience on your Linux device.(if have issues with waydroid displaying , ensure your in a wayland session and our xdns option from the xmenu is installed)
   * 
 (for gamepad support open terminal and run) :
     
