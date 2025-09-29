@@ -200,7 +200,7 @@ This repository is designed for all **APT-based operating systems**, including:
 
 ### **Beyond Native System Capabilities**
 
-Xkaliber OS offers unique software solutions and enhancements that go beyond what's typically available on your native system.
+Xkaliber OS offers unique software solutions and enhancements that go beyond what's typically available on your native system. (enable virtualization in Bios)
 
 -----
 
