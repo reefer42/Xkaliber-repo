@@ -261,8 +261,8 @@ Follow these simple steps to get started:
     ```bash
     wget https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/xupdate
     ```
-2.  **Install the package:**
-    ```bash
+2.  **Install the package:** make sure to chmod +x xupdate
+    ```bash  
     bash xupdate
   
     ```
