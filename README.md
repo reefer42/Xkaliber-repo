@@ -1,5 +1,11 @@
 # Xkaliber Repository updates :
 
+12/6/25
+
+minor improvments and added a new application called ollama maker (om2_gui.sh) to the repo and also can be downloaded direct from this page without repo. this application automates the steps of makings
+your own custom ollama model by giving you the options to select a model you already have and apply a custom prompt and also name and set the temp of the model 
+
+
 9/20/25
 
 updated the new gui for our package manager. it can be accessed typing in the word: xmenu   in any terminal and old menu can still be accessed typing in xmenu.sh
