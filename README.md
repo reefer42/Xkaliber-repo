@@ -3,7 +3,7 @@
 12/6/25
 
 <img width="565" height="374" alt="prompt" src="https://github.com/user-attachments/assets/c34c66cd-c89f-491a-b25b-f8bb11f18c0d" />
-<img width="1280" height="800" alt="Screenshot_20250819_115653" src="https://github.com/user-attachments/assets/97315787-0f69-4041-ad75-967f7b6ed897" />
+
 
 minor improvments and added a new application called ollama maker (om2_gui.sh) to the repo and also can be downloaded direct from this page without repo. this application automates the steps of makings
 your own custom ollama model by giving you the options to select a model you already have and apply a custom prompt and also name and set the temp of the model. NOTE: make file named prompt.txt and type in or paste in your prompt
