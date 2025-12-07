@@ -2,6 +2,8 @@
 
 12/6/25
 
+https://www.youtube.com/watch?v=WDtpR9dGEtg
+
 <img width="565" height="374" alt="prompt" src="https://github.com/user-attachments/assets/c34c66cd-c89f-491a-b25b-f8bb11f18c0d" />
 
 
