@@ -1,5 +1,9 @@
 # Xkaliber Repository updates :
 
+12/20/25 
+
+updated decky loader installer to support more plugins including framegen plugin for desktop and handhelds 
+
 12/6/25
 
 https://www.youtube.com/watch?v=WDtpR9dGEtg
