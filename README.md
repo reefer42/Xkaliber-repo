@@ -411,11 +411,10 @@ To the wizards who cast the spells and help forged the tools that brought this p
 
 * **Mark Dodd:** The Sorcerer of Solutions in engineering
 * 
-* **John Webber:** The Alchemist of Archival and web admin
 * 
 * **Alexander Buren:** The Grand Architect of AI
 
-*  **Original and Main Engineer**
+*  **Original and Main Engineer**  **Kenneth Harris (reefer):**
                 😃
-*  **Kenneth Harris (reefer):**
+* 
 
