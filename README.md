@@ -1,5 +1,14 @@
 # Xkaliber Repository updates :
 
+12/25/25
+
+added new application named debategui which allows user to select 2 locally host ollama models to debate on topics you set 
+
+https://youtu.be/iOjumLr2gWY
+
+![debate](https://github.com/user-attachments/assets/05e0cd6f-2cf8-4325-93c5-8e8fce888098)
+<img width="565" height="374" alt="prompt" src="https://github.com/user-attachments/assets/c34c66cd-c89f-491a-b25b-f8bb11f18c0d" />
+
 12/20/25 
 
 updated decky loader installer to support more plugins including framegen plugin for desktop and handhelds 
