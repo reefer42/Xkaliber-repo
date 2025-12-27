@@ -410,8 +410,8 @@ That’s it—ready to create a personalized live image in just a few steps!(for
 To the wizards who cast the spells and help forged the tools that brought this project to life, our deepest thanks.
 
 * **Mark Dodd:** The Sorcerer of Solutions in engineering
-* 
-* 
+  
+  
 * **Alexander Buren:** The Grand Architect of AI
 
 *  **Original and Main Engineer**  ** (reefer):**
