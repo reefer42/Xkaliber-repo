@@ -1,4 +1,4 @@
-# Xkaliber Repository updates :
+# Xkaliber Repository updates : our official iso is bottom of page
 
 12/25/25
 
