@@ -1,7 +1,8 @@
 # Xkaliber Repository updates : our official iso is bottom of page
           ##FOR HACKERS AND GAMERS ALIKE BUILD AND BASED ON KALI LINUX FOR HANDHELD PCS, LEGION GO,
           STEAMDECK ETC WITH DEDICATED TOUCH INPUT AND KEYBOARD
-          TYPE xmenu TO VIEW REPO OPTIONS##
+          TYPE xmenu TO VIEW REPO OPTIONS
+          deckyloader and handhelddaemon packages provided in repo##
 
 SEARCH FOR INSTALL IN SEARCH BAR TO INSTALL 
 ![install](https://github.com/user-attachments/assets/be4f3a16-62e4-4357-926b-70be767d3193)
