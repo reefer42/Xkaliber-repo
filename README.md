@@ -1,7 +1,7 @@
 # Xkaliber Repository updates : our official iso is bottom of page
-          ##FOR HACKERS AND GAMERS ALIKE BUILD AND BASED ON KALI LINUX##
+          ##FOR HACKERS AND GAMERS ALIKE BUILD AND BASED ON KALI LINUX FOR HANDHELD PCS, LEGION GO, STEAMDECK ETC WITH DEDICATED TOUCH INPUT AND KEYBOARD##
 
-12/25/25
+12/25/25https://github.com/reefer42/Xkaliber-repo/edit/main/README.md
 
 added new application named debategui which allows user to select 2 locally host ollama models to debate on topics you set 
 
