@@ -2,7 +2,8 @@
           ##FOR HACKERS AND GAMERS ALIKE BUILT AND BASED ON KALI LINUX FOR HANDHELD PCS, LEGION GO,
           STEAMDECK ETC WITH DEDICATED TOUCH INPUT AND KEYBOARD
           YOU CAN FLASH OUR ISO OR ADD OUR REPO TO CURRENT OS
-          TYPE xmenu TO VIEW REPO OPTIONS
+          THIS CAN ALSO BE USED AS A TYPICAL DEBIAN STEAMOS
+          TYPE "xmenu" TO VIEW REPO OPTIONS
           deckyloader and handhelddaemon packages provided in repo
           Contact dev discord https://discord.gg/g89daSA2Dh ##
 
