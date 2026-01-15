@@ -3,6 +3,8 @@
           STEAMDECK ETC WITH DEDICATED TOUCH INPUT AND KEYBOARD
           TYPE xmenu TO VIEW REPO OPTIONS##
 
+SEARCH FOR INSTALL IN SEARCH BAR TO INSTALL 
+![install](https://github.com/user-attachments/assets/be4f3a16-62e4-4357-926b-70be767d3193)
 12/25/25https://github.com/reefer42/Xkaliber-repo/edit/main/README.md
 
 added new application named debategui which allows user to select 2 locally host ollama models to debate on topics you set 
