@@ -1,4 +1,5 @@
 # Xkaliber Repository updates : our official iso is bottom of page
+          ##FOR HACKERS AND GAMERS ALIKE BUILD AND BASED ON KALI LINUX##
 
 12/25/25
 
@@ -337,7 +338,7 @@ USE VENTOY TO FLASH THIS ISO
 
 https://drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view
 
-MD5 : 1e8f9c02feb27c3b0ce4467e8dbf748d
+MD5 : b50c44de58454f311f2ecdf32a7e2751
 
 password to iso is: **kali**
 
