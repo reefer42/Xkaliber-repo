@@ -158,7 +158,7 @@ Xkaliber OS takes a unique approach to system enhancement. This repository is me
 
 A key focus of this repository is its optimization for handheld pocket PCs like the Steam Deck, GPD WIN 4, and similar devices, particularly for integrated AI tools and difficult installations. All included software is private and locally hosted, requiring no subscriptions or paid API access for use.
 
-##if ever find issues or bugs pertaining to desktop-base we have a patch script on this github https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/blacklistdesktopbase.sh  you can run this and it should solve your problem if this happens to ever occur
+##if ever find issues or bugs pertaining to desktop-base we have a patch script on this github https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/blacklistdesktopbase.sh  you can run this and it should solve your problem if this happens to ever occur##
 
 **ensure time and date and region are correct and are connected to the internet or installers may not work**
 **(especially before running xdocker option)**
