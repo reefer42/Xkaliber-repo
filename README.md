@@ -4,7 +4,7 @@
           YOU CAN FLASH OUR ISO OR ADD OUR REPO TO CURRENT OS
           THIS CAN ALSO BE USED AS A TYPICAL DEBIAN STEAMOS
           TYPE "xmenu" TO VIEW REPO OPTIONS
-          https://youtu.be/I9e0bgbzkbA
+          https://youtu.be/I9e0bgbzkbA  (current preview of usage)
           deckyloader and handhelddaemon packages provided in repo
           Contact dev discord https://discord.gg/g89daSA2Dh ##
 
