@@ -7,6 +7,7 @@
           https://youtu.be/I9e0bgbzkbA  (current preview of usage)
           deckyloader and handhelddaemon packages provided in repo
           Contact dev discord https://discord.gg/g89daSA2Dh ##
+          Official website https://xkaliber.tiiny.site/
 
 SEARCH FOR INSTALL IN SEARCH BAR TO INSTALL 
 ![install](https://github.com/user-attachments/assets/be4f3a16-62e4-4357-926b-70be767d3193)
