@@ -9,6 +9,13 @@
           Contact dev discord https://discord.gg/g89daSA2Dh ##
           Official website https://xkaliber.tiiny.site/
 
+
+official easy to install package for the repo now availible as appimage or .deb :
+
+https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/Xkaliber-1.0.0.AppImage
+
+
+
 SEARCH FOR INSTALL IN SEARCH BAR TO INSTALL 
 ![install](https://github.com/user-attachments/assets/be4f3a16-62e4-4357-926b-70be767d3193)
 12/25/25https://github.com/reefer42/Xkaliber-repo/edit/main/README.md
