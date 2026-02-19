@@ -11,7 +11,8 @@
 
 
 official easy to install package for the repo now availible as appimage or .deb : link below easy method for obtaining and installing repo. first time 
-installing official repo may take a min though it will look like nothing is happening . remember to do sudo update so new repo is detected after instaling first time and remember to launch xdocker before installing else after 
+installing official repo may take a min though it will look like nothing is happening . remember to do sudo update so new repo is detected after installing first time and remember to launch xdocker before installing 
+anything else after 
 
 https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/Xkaliber-1.0.0.AppImage
 
