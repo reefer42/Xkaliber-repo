@@ -10,7 +10,7 @@
           Official website https://xkaliber.tiiny.site/
 
 
-official easy to install package for the repo now availible as appimage or .deb :
+official easy to install package for the repo now availible as appimage or .deb : link below easy method for obtaining and installing repo
 
 https://github.com/reefer42/Xkaliber-repo/releases/download/Xkaliber/Xkaliber-1.0.0.AppImage
 
