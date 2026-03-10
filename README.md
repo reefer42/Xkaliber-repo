@@ -1,4 +1,4 @@
-# Xkaliber Repository updates : our official iso is bottom of page
+# Xkaliber Repository updates : our official iso is bottom of page #Banned for use in california
           ##FOR HACKERS AND GAMERS ALIKE BUILT AND BASED ON KALI LINUX FOR HANDHELD PCS, LEGION GO,
           STEAMDECK ETC WITH DEDICATED TOUCH INPUT AND KEYBOARD
           YOU CAN FLASH OUR ISO OR ADD OUR REPO TO CURRENT OS
