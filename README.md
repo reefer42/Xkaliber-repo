@@ -1,3 +1,5 @@
+Xkaliber OS has officially moved its main branch to Debian Trixie. This release features a custom 7.0-rc6 kernel integrated with fsync, the BORE scheduler, and Android Binder support for peak performance. Whether you are on a desktop, laptop, or handheld, Xkaliber provides a versatile experience with GNOME, KDE Plasma, and Plasma Mobile pre-configured. We’ve also streamlined gaming and mobile integration by pre-installing Steam, Waydroid, and Handheld Daemon, offering out-of-the-box support for the Steam Deck, Legion Go, GPD, ONEXPLAYER, and more.
+
 # Xkaliber Repository updates : our official iso is bottom of page #Banned for use in california
           ##FOR HACKERS AND GAMERS ALIKE BUILT AND BASED ON KALI LINUX FOR HANDHELD PCS, LEGION GO,
           STEAMDECK ETC WITH DEDICATED TOUCH INPUT AND KEYBOARD
@@ -9,7 +11,7 @@
           Contact dev discord https://discord.gg/g89daSA2Dh ##
           Official website https://xkaliber.tiiny.site/
 
-          Xkaliber OS has officially moved its main branch to Debian Trixie. This release features a custom 7.0-rc6 kernel integrated with fsync, the BORE scheduler, and Android Binder support for peak performance. Whether you are on a desktop, laptop, or handheld, Xkaliber provides a versatile experience with GNOME, KDE Plasma, and Plasma Mobile pre-configured. We’ve also streamlined gaming and mobile integration by pre-installing Steam, Waydroid, and Handheld Daemon, offering out-of-the-box support for the Steam Deck, Legion Go, GPD, ONEXPLAYER, and more.
+          
 
 
 official easy to install package for the repo now availible as appimage or .deb : link below easy method for obtaining and installing repo. first time 
