@@ -9,6 +9,8 @@
           Contact dev discord https://discord.gg/g89daSA2Dh ##
           Official website https://xkaliber.tiiny.site/
 
+          Xkaliber OS has officially moved its main branch to Debian Trixie. This release features a custom 7.0-rc6 kernel integrated with fsync, the BORE scheduler, and Android Binder support for peak performance. Whether you are on a desktop, laptop, or handheld, Xkaliber provides a versatile experience with GNOME, KDE Plasma, and Plasma Mobile pre-configured. We’ve also streamlined gaming and mobile integration by pre-installing Steam, Waydroid, and Handheld Daemon, offering out-of-the-box support for the Steam Deck, Legion Go, GPD, ONEXPLAYER, and more.
+
 
 official easy to install package for the repo now availible as appimage or .deb : link below easy method for obtaining and installing repo. first time 
 installing official repo may take a min though it will look like nothing is happening . remember to do sudo update so new repo is detected after installing first time and remember to launch xdocker before installing 
@@ -360,9 +362,9 @@ USE VENTOY TO FLASH THIS ISO
 
 https://drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view
 
-MD5 : b50c44de58454f311f2ecdf32a7e2751
+MD5 : 24fac1f5dad864e29f951190e185fd8f
 
-password to iso is: **kali**
+this iso is our debian user friendly branch
 
 this version only supports KDE but is keyboardless dedicated (now supports desktops) default DE is plasma mobile :
 
