@@ -55,6 +55,8 @@ Context Window (num_ctx): Scale the model's "short-term memory" to fit your hard
 
 Modern UI: A sleek, distraction-free dark interface designed for long coding and automation sessions.
 
+<img width="1920" height="1200" alt="agent" src="https://github.com/user-attachments/assets/60326e65-cc28-4094-bede-cd6dbd182346" />
+
 
 SEARCH FOR INSTALL IN SEARCH BAR TO INSTALL 
 ![install](https://github.com/user-attachments/assets/be4f3a16-62e4-4357-926b-70be767d3193)
