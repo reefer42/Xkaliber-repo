@@ -15,6 +15,45 @@ NOTICE: Xkaliber OS has officially moved its main branch to Debian Trixie. This 
 
 
 
+4/8/26
+
+INTRODUCING THE NEW ⚔️ Xkaliber Agent
+Xkaliber Agent is a sophisticated, dark-themed autonomous desktop client that bridges the gap between local LLMs and your system. Built on Electron and powered by Ollama, Xkaliber transforms standard AI models into high-functioning system agents with secure access to your host machine, real-time web data, and external communication channels.
+
+Unlike traditional chat interfaces, Xkaliber is a harness—giving your local models the "hands" they need to execute tasks in the real world.
+
+✨ Key Capabilities
+🛠️ Agentic System Harness
+Turn your LLM into a power user. By toggling Agent Mode, you grant the model a secure toolset to interact directly with your OS.
+
+Execute: Run shell commands and scripts.
+
+Manage: Navigate directories and perform CRUD operations on files.
+
+Automate: Accomplish complex, multi-step system tasks autonomously.
+
+🌐 Netrunner Mode (Live Web)
+Break the training data cutoff. Xkaliber enables your models to dynamically query DuckDuckGo, parse search results, and synthesize real-time factual answers from the live web.
+
+📱 WhatsApp Integration
+Bridge your local workflow with your mobile device. Scan the built-in QR code to link your account, allowing the agent to send text messages, status alerts, or script outputs directly to you or your contacts.
+
+👁️ Multimodal Vision
+Native support for vision-capable models (e.g., LLaVA, Llama 3.2 Vision). Simply drop images into the chat for instant analysis, OCR, or descriptive tasks.
+
+🔊 Offline Piper TTS
+Stay fully local. Xkaliber integrates Piper TTS for lightning-fast, high-quality text-to-speech, ensuring your agent has a voice without ever pinging a cloud server.
+
+⚙️ Power User Features
+Persistent Context: Local session history allows you to resume complex workflows instantly. Need a fresh start? Use the "Wipe Memory" control.
+
+Precision Tuning: Fine-tune model behavior on the fly using sidebar sliders:
+
+Temperature: Control creativity vs. deterministic logic.
+
+Context Window (num_ctx): Scale the model's "short-term memory" to fit your hardware limits.
+
+Modern UI: A sleek, distraction-free dark interface designed for long coding and automation sessions.
 
 
 SEARCH FOR INSTALL IN SEARCH BAR TO INSTALL 
