@@ -58,9 +58,6 @@ Modern UI: A sleek, distraction-free dark interface designed for long coding and
 <img width="1920" height="1200" alt="agent" src="https://github.com/user-attachments/assets/60326e65-cc28-4094-bede-cd6dbd182346" />
 
 
-SEARCH FOR INSTALL IN SEARCH BAR TO INSTALL 
-![install](https://github.com/user-attachments/assets/be4f3a16-62e4-4357-926b-70be767d3193)
-12/25/25https://github.com/reefer42/Xkaliber-repo/edit/main/README.md
 
 added new application named debategui which allows user to select 2 locally host ollama models to debate on topics you set 
 
