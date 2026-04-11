@@ -329,7 +329,7 @@ Dive into the world of Artificial Intelligence with pre-configured, locally host
   * **Image & Video Generation**
   * **Popular AI Software Hubs**
   * **Uncensored AI Models:** Including Reefer AI.
-  * **Windows Software in Docker:** Run Adobe and other Windows applications seamlessly using Windows inside Docker.
+
 
 All AI options are pre-configured for immediate use, so you can enjoy these powerful features right away. Xkaliber OS also provides AI and image generation capabilities specifically tailored for **pocket PCs** like the Steam Deck.
 
