@@ -257,7 +257,7 @@ we have a full iso image that has the repo included thats tailored for desktops 
 
 and frequent updates
 
-<img width="539" height="333" alt="Screenshot_2025-08-05_08-53-03" src="https://github.com/user-attachments/assets/be40f60c-0f03-4a0e-b5da-fb80a09e7be9" />
+
 
 <img width="2561" height="1600" alt="Screenshot_20250723_131456" src="https://github.com/user-attachments/assets/00a205fa-96be-4bea-96a2-588437639bbe" />
 
