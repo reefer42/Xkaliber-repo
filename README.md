@@ -19,6 +19,8 @@ NOTICE: Xkaliber OS has officially moved its main branch to Debian Trixie. This 
 
 INTRODUCING THE NEW 
 
+(if you wish to try agent with out adding repo or installing os there is a appimge in releases section)
+
 ⚔️kaliber Agent: True Agency
 Xkaliber Agent is an aggressively dark-themed, autonomous AI desktop client designed for users who want to stop chatting with LLMs and start deploying them. Built on Electron and powered by local Ollama models, Xkaliber provides your local AI with "True Agency"—the ability to execute, fail, learn, and succeed on your host machine without human hand-holding.
 
