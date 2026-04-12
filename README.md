@@ -50,7 +50,7 @@ Break the local sandbox. The AI dynamically queries DuckDuckGo, scrapes relevant
 A built-in QR link allows the agent to communicate externally. Have the AI send you status alerts, script outputs, or automated messages directly via WhatsApp while you’re away from your desk.
 
 👁️ Multimodal & File Context
-Vision: Support for models like LLaVA and Llama 3.2 Vision for native image analysis.
+Vision: Support for models like LLaVA and Llama 3.2 Vision gemma4 gwen3.5 etc for native image analysis.
 
 File Attachments: Drop local text files or images directly into the chat to provide immediate context for the agent's next task.
 
