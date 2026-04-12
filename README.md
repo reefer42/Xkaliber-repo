@@ -17,43 +17,42 @@ NOTICE: Xkaliber OS has officially moved its main branch to Debian Trixie. This 
 
 4/8/26
 
-INTRODUCING THE NEW ⚔️ Xkaliber Agent
-Xkaliber Agent is a sophisticated, dark-themed autonomous desktop client that bridges the gap between local LLMs and your system. Built on Electron and powered by Ollama, Xkaliber transforms standard AI models into high-functioning system agents with secure access to your host machine, real-time web data, and external communication channels.
+INTRODUCING THE NEW 
 
-Unlike traditional chat interfaces, Xkaliber is a harness—giving your local models the "hands" they need to execute tasks in the real world.
+⚔️kaliber Agent: True Agency
+Xkaliber Agent is an aggressively dark-themed, autonomous AI desktop client designed for users who want to stop chatting with LLMs and start deploying them. Built on Electron and powered by local Ollama models, Xkaliber provides your local AI with "True Agency"—the ability to execute, fail, learn, and succeed on your host machine without human hand-holding.
 
-✨ Key Capabilities
-🛠️ Agentic System Harness
-Turn your LLM into a power user. By toggling Agent Mode, you grant the model a secure toolset to interact directly with your OS.
+⚡ Key Features
+🛠️ Agentic System Harness (True Agency Edition)
+Transform your local LLM into a systems engineer. When Agent Mode is active, the model gains a secure toolset to interact directly with your OS:
 
-Execute: Run shell commands and scripts.
+Shell Autonomy: Run bash commands, navigate complex directory structures, and manage files (CRUD).
 
-Manage: Navigate directories and perform CRUD operations on files.
+Self-Correction Loop: If a command returns a traceback or an error, the AI analyzes the output, refines its logic, and retries automatically until the task is complete.
 
-Automate: Accomplish complex, multi-step system tasks autonomously.
+Privilege Escalation: Execute sudo commands securely. Provide your key via the UI—the system handles escalation through secure pipelines, ensuring the AI can manage system configs or apt packages without logging sensitive credentials.
+
+🔗 Raw API & Database Hooks
+Xkaliber isn't limited to the filesystem. Using the http_request tool, the agent can:
+
+Query REST APIs and parse JSON responses.
+
+Fetch remote schemas to understand external services.
+
+Natively interact with databases, CRMs, or any networked endpoint.
 
 🌐 Netrunner Mode (Live Web)
-Break the training data cutoff. Xkaliber enables your models to dynamically query DuckDuckGo, parse search results, and synthesize real-time factual answers from the live web.
+Break the local sandbox. The AI dynamically queries DuckDuckGo, scrapes relevant search results, and synthesizes real-time data into your local context window.
 
 📱 WhatsApp Integration
-Bridge your local workflow with your mobile device. Scan the built-in QR code to link your account, allowing the agent to send text messages, status alerts, or script outputs directly to you or your contacts.
+A built-in QR link allows the agent to communicate externally. Have the AI send you status alerts, script outputs, or automated messages directly via WhatsApp while you’re away from your desk.
 
-👁️ Multimodal Vision
-Native support for vision-capable models (e.g., LLaVA, Llama 3.2 Vision). Simply drop images into the chat for instant analysis, OCR, or descriptive tasks.
+👁️ Multimodal & File Context
+Vision: Support for models like LLaVA and Llama 3.2 Vision for native image analysis.
 
-🔊 Offline Piper TTS
-Stay fully local. Xkaliber integrates Piper TTS for lightning-fast, high-quality text-to-speech, ensuring your agent has a voice without ever pinging a cloud server.
+File Attachments: Drop local text files or images directly into the chat to provide immediate context for the agent's next task.
 
-⚙️ Power User Features
-Persistent Context: Local session history allows you to resume complex workflows instantly. Need a fresh start? Use the "Wipe Memory" control.
-
-Precision Tuning: Fine-tune model behavior on the fly using sidebar sliders:
-
-Temperature: Control creativity vs. deterministic logic.
-
-Context Window (num_ctx): Scale the model's "short-term memory" to fit your hardware limits.
-
-Modern UI: A sleek, distraction-free dark interface designed for long coding and automation sessions.
+Persistent Memory	Local session history saves context automatically. Resume any task after a restart.
 
 <img width="1920" height="1200" alt="agent" src="https://github.com/user-attachments/assets/60326e65-cc28-4094-bede-cd6dbd182346" />
 
