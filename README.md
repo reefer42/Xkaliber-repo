@@ -19,6 +19,8 @@ NOTICE: Xkaliber OS has officially moved its main branch to Debian Trixie. This 
 
 INTRODUCING THE NEW 
 
+https://github.com/reefer42/xkaliber-agent
+
 (if you wish to try agent with out adding repo or installing os there is a appimge in releases section)
 
 ⚔️kaliber Agent: True Agency
