@@ -390,7 +390,7 @@ USE VENTOY TO FLASH THIS ISO
 
 https://drive.google.com/file/d/1Q6hOwZx-HR2kMItUunzsg59h5NdiMGMh/view
 
-MD5 : 4c27dafcae155b114cdf4beea6973f30
+MD5 : 6a20b116294f0e18dcbc85df7ef6ac32
 
 this iso is our debian user friendly branch
 
