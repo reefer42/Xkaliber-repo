@@ -238,8 +238,6 @@ Reefer AI
 
 cubic
 
-windows 11 local docker image 
-
 unityhub
 
 handheld daemon
