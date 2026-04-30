@@ -396,7 +396,7 @@ MD5 : 6a20b116294f0e18dcbc85df7ef6ac32
 
 this iso is our debian user friendly branch
 
-this version only supports KDE but is keyboardless dedicated (now supports desktops) default DE is plasma mobile :
+
 
 <img width="1280" height="800" alt="home3" src="https://github.com/user-attachments/assets/6ff9a3ed-8e67-4c70-94c0-feb585b76204" />
 <img width="1280" height="800" alt="home2" src="https://github.com/user-attachments/assets/635765ff-5aba-41f1-9009-b922ad8980a9" />
